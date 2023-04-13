@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Classroom.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{047E4074-C873-497A-A7B6-CBA7891630FF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Classroom.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ClassroomEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F50C9E65-4F76-4C87-881B-1A29596C0356}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Classroom">
+      <UniqueIdentifier>{93D146F5-9DB5-4C40-9123-6BB64E13E6B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Classroom\Classroom.Build.cs">
+      <Filter>Source\Classroom</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Classroom\Classroom.cpp">
+      <Filter>Source\Classroom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Classroom\Classroom.h">
+      <Filter>Source\Classroom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Classroom\ClassroomCharacter.cpp">
+      <Filter>Source\Classroom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Classroom\ClassroomCharacter.h">
+      <Filter>Source\Classroom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Classroom\ClassroomGameMode.cpp">
+      <Filter>Source\Classroom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Classroom\ClassroomGameMode.h">
+      <Filter>Source\Classroom</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
