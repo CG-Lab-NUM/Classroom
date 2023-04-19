@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{C7D1B804-8DAF-47F6-B02B-67719CDBF449}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{ED3C824B-C448-40DE-9BB0-78F845792CE0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+    <Filter Include="Private">
+      <UniqueIdentifier>{5A07E906-3788-4037-B8DA-E8EFEB7BFA1B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
+      <Filter>Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
