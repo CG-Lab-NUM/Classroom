@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.27",
+	"EngineAssociation": "{AD6649C5-4FA5-AE17-2FDF-E8B01BCCB70F}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Classroom",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }

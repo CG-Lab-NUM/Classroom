@@ -9,6 +9,11 @@
 			"Name": "ClassroomEditor",
 			"Path": "D:\\UnrealProjects\\Classroom\\Source\\ClassroomEditor.Target.cs",
 			"Type": "Editor"
+		},
+		{
+			"Name": "ClassroomServer",
+			"Path": "D:\\UnrealProjects\\Classroom\\Source\\ClassroomServer.Target.cs",
+			"Type": "Server"
 		}
 	]
 }

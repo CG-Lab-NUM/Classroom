@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Classroom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{047E4074-C873-497A-A7B6-CBA7891630FF}</UniqueIdentifier>
+      <UniqueIdentifier>{8A455C93-A64D-4F5C-A8C3-C1370F06D0FC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Classroom.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,13 @@
     <None Include="..\..\Source\ClassroomEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\Source\ClassroomServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F50C9E65-4F76-4C87-881B-1A29596C0356}</UniqueIdentifier>
+      <UniqueIdentifier>{3D460004-A05A-434A-AF4E-2E267270E9D2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +35,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Classroom">
-      <UniqueIdentifier>{93D146F5-9DB5-4C40-9123-6BB64E13E6B0}</UniqueIdentifier>
+      <UniqueIdentifier>{672838B0-0AD7-4536-9F94-A92CB7CAF41A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Classroom\Classroom.Build.cs">
       <Filter>Source\Classroom</Filter>
@@ -41,17 +46,17 @@
     <ClInclude Include="..\..\Source\Classroom\Classroom.h">
       <Filter>Source\Classroom</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Classroom\ClassroomCharacter.cpp">
-      <Filter>Source\Classroom</Filter>
+    <Filter Include="Source\Classroom\Private">
+      <UniqueIdentifier>{39C46D37-98BF-4E59-B8D7-3090438E006F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Classroom\Private\MultiplayerHelper.cpp">
+      <Filter>Source\Classroom\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Classroom\ClassroomCharacter.h">
-      <Filter>Source\Classroom</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Classroom\ClassroomGameMode.cpp">
-      <Filter>Source\Classroom</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Classroom\ClassroomGameMode.h">
-      <Filter>Source\Classroom</Filter>
+    <Filter Include="Source\Classroom\Public">
+      <UniqueIdentifier>{F36ECCA8-BAF7-4AC6-A3EF-4AFE09316D46}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Classroom\Public\MultiplayerHelper.h">
+      <Filter>Source\Classroom\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
