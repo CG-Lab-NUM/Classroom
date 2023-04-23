@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-RuntimeTransformer.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\UnrealProjects\Classroom\Plugins\RuntimeTransformer\Intermediate\Build\Win64\UE4Editor\Development\RuntimeTransformer\Module.RuntimeTransformer.cpp.obj"
+"D:\UnrealProjects\Classroom\Plugins\RuntimeTransformer\Intermediate\Build\Win64\UE4Editor\Development\RuntimeTransformer\Module.RuntimeTransformer.gen.cpp.obj"
+"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
+/OUT:"D:\UnrealProjects\Classroom\Plugins\RuntimeTransformer\Intermediate\Build\Win64\UE4Editor\Development\RuntimeTransformer\UE4Editor-RuntimeTransformer.lib"
