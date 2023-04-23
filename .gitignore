@@ -4,6 +4,8 @@ Content/StarterContent/
 Intermediate/Build/
 .vs/
 Plugins/PlayFabSDK/
+Plugins/PlayFabGSDK/
 Saved/Logs/
+Saved/StagedBuilds/
 Saved/Config/
 Classroom.uproject
