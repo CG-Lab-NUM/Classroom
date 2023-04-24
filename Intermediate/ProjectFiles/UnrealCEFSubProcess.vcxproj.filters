@@ -4,7 +4,7 @@
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{4BD69166-23A9-41E2-9791-82FC95187345}</UniqueIdentifier>
+      <UniqueIdentifier>{E1565943-2CC2-4C98-BA8F-3E9E130F6020}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
       <Filter>Private</Filter>
@@ -37,34 +37,34 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Linux">
-      <UniqueIdentifier>{CA2AFA42-3EFD-4749-9F75-1F66F175A8EA}</UniqueIdentifier>
+      <UniqueIdentifier>{1667B4D1-B7D2-4E3A-8339-BD4454C7E874}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
       <Filter>Private\Linux</Filter>
     </ClCompile>
     <Filter Include="Private\Mac">
-      <UniqueIdentifier>{DD51B507-360B-4CCF-BBA6-494995D415A8}</UniqueIdentifier>
+      <UniqueIdentifier>{E234B6D0-671C-4242-AE39-8CAAF0EA3683}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
       <Filter>Private\Mac</Filter>
     </ClCompile>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{24FB0779-8E4A-47C2-8D8D-ADB9729DFBFD}</UniqueIdentifier>
+      <UniqueIdentifier>{812C19D1-CDC9-499E-B969-4BAC9EF79DD8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
     <Filter Include="Resources">
-      <UniqueIdentifier>{C69991D8-9672-411A-86B6-D4ACA98D8505}</UniqueIdentifier>
+      <UniqueIdentifier>{90DA981A-1B31-4F9E-A0DA-EF6DCC4775FE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Mac">
-      <UniqueIdentifier>{84E4A8A6-DFC8-4E7B-8976-20DDE7022E88}</UniqueIdentifier>
+      <UniqueIdentifier>{09565AD1-03E1-4766-A4FF-47866A3B5A07}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Mac\Info.plist">
       <Filter>Resources\Mac</Filter>
     </None>
     <Filter Include="Resources\Windows">
-      <UniqueIdentifier>{AC774430-9210-40DE-BDF1-0E1727951E62}</UniqueIdentifier>
+      <UniqueIdentifier>{DD1CE64A-5438-4E49-AB27-5B3D0EAA6D51}</UniqueIdentifier>
     </Filter>
     <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest">
       <Filter>Resources\Windows</Filter>
