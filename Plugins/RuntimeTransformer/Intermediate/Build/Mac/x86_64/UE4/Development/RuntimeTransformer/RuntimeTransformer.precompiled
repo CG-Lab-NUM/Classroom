@@ -1,6 +1,0 @@
-{
-	"OutputFiles": [
-		"Module.RuntimeTransformer.cpp.o",
-		"Module.RuntimeTransformer.gen.cpp.o"
-	]
-}
