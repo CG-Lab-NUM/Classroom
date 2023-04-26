@@ -4,7 +4,7 @@
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs" />
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{EEA91EA3-1205-49BC-A58B-A5B843AB1E10}</UniqueIdentifier>
+      <UniqueIdentifier>{C3824AEE-39E5-4ABE-8302-2F9D21FE9E8A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp">
       <Filter>Private</Filter>
@@ -19,7 +19,7 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\GenericPlatform">
-      <UniqueIdentifier>{A6A61CAB-58CE-41A9-A409-370A85C7D0C5}</UniqueIdentifier>
+      <UniqueIdentifier>{18471DBA-2168-48BE-A5F0-5B7897C5142E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp">
       <Filter>Private\GenericPlatform</Filter>
@@ -28,7 +28,7 @@
       <Filter>Private\GenericPlatform</Filter>
     </ClInclude>
     <Filter Include="Private\Linux">
-      <UniqueIdentifier>{540332E7-695B-430B-A7AF-AFC9BB6F917C}</UniqueIdentifier>
+      <UniqueIdentifier>{CE38981C-41BA-4032-AD00-378D472F8A9A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\LinuxPlatformInstallation.cpp">
       <Filter>Private\Linux</Filter>
@@ -40,7 +40,7 @@
       <Filter>Private\Linux</Filter>
     </ClCompile>
     <Filter Include="Private\Linux\Resources">
-      <UniqueIdentifier>{3DA76BC5-0B40-4FD3-B1AB-171C9200F949}</UniqueIdentifier>
+      <UniqueIdentifier>{3CFF56CC-ABD6-49F4-80AB-84A1402610BA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\Private\Linux\Resources\com.epicgames.UnrealEngine.desktop">
       <Filter>Private\Linux\Resources</Filter>
@@ -58,7 +58,7 @@
       <Filter>Private\Linux\Resources</Filter>
     </None>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{7EE0CF73-FF36-4A74-859A-2F55D0E87772}</UniqueIdentifier>
+      <UniqueIdentifier>{EC6E8797-F50F-4346-ABB4-BB5B9536BB60}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp">
       <Filter>Private\Windows</Filter>
@@ -67,7 +67,7 @@
       <Filter>Private\Windows</Filter>
     </ClInclude>
     <Filter Include="Private\Windows\Resources">
-      <UniqueIdentifier>{72AC30E0-9C91-43D1-9CB7-677EA093C937}</UniqueIdentifier>
+      <UniqueIdentifier>{CBD7FFA9-9DCE-4088-BB89-82CB84CE3B39}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico">
       <Filter>Private\Windows\Resources</Filter>

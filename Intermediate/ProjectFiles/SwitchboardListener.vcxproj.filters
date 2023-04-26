@@ -5,7 +5,7 @@
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\ReadMe.md" />
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{959F99B6-41F2-4EB6-A3EE-11A7DBA68C4F}</UniqueIdentifier>
+      <UniqueIdentifier>{09842248-8C21-474F-9E16-6D5B04245EF5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
       <Filter>Private</Filter>
@@ -47,7 +47,7 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{42D4068A-B0E1-4195-8756-6EFD85488B0D}</UniqueIdentifier>
+      <UniqueIdentifier>{7F97768B-F2DC-45FF-8092-DC35A8A5CB24}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
       <Filter>Private\Windows</Filter>
@@ -56,7 +56,7 @@
       <Filter>Private\Windows</Filter>
     </ClInclude>
     <Filter Include="Private\Windows\Resources">
-      <UniqueIdentifier>{4BA11E0D-4769-4034-9E52-3FA7A172BB1A}</UniqueIdentifier>
+      <UniqueIdentifier>{589FACF0-2A97-4EA4-8D04-FAB5927C6DFB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico">
       <Filter>Private\Windows\Resources</Filter>
@@ -71,7 +71,7 @@
       <Filter>Private\Windows\Resources</Filter>
     </None>
     <Filter Include="Tests">
-      <UniqueIdentifier>{77F364DE-709F-4F05-AFB5-D7710BB2DD04}</UniqueIdentifier>
+      <UniqueIdentifier>{2C7917B0-BA2C-4EF1-B69C-8F24D273700D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py">
       <Filter>Tests</Filter>
