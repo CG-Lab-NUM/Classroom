@@ -15,6 +15,39 @@ void AFileHandler::BeginPlay()
 	Super::BeginPlay();
 }
 
+FString AFileHandler::loadFileToString(FString filepath) {
+	FString fullPath = FPaths::Combine(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()), filepath);
+	FString fileContents;
+	if (FFileHelper::LoadFileToString(fileContents, *fullPath)) {
+		return fileContents;
+	}
+	return "";
+}
+
+FString AFileHandler::loadFileFromDialog() {
+	FString defaultPath = FPaths::ProjectSavedDir();
+	FString fileTypes = "All Files (*.*)|*.*";
+	TArray<FString> outFileNames;
+
+	IDesktopPlatform* desktopPlatform = FDesktopPlatformModule::Get();
+	if (desktopPlatform) {
+		bool bResult = desktopPlatform->OpenFileDialog(
+			nullptr,
+			"Select a file",
+			defaultPath,
+			"",
+			TEXT(";;") + fileTypes,
+			EFileDialogFlags::None,
+			outFileNames
+		);
+
+		if (bResult && outFileNames.Num() > 0) {
+			return outFileNames[0];
+		}
+	}
+	return "";
+}
+
 TArray<FString> AFileHandler::getFilesInFolder() {
 	FString platform = getPlatform();
 	TArray<FString> arr;

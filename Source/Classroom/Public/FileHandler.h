@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "GenericPlatform/GenericPlatformFile.h"
 #include "HAL/PlatformFileManager.h"
+#include "DesktopPlatform/Public/DesktopPlatformModule.h"
 #include "FileHandler.generated.h"
 
 UCLASS()
@@ -25,4 +26,8 @@ public:
 		TArray<FString> getFilesInFolder();
 	UFUNCTION(BlueprintCallable, Category = "File")
 		FString getPlatform();
+	UFUNCTION(BlueprintCallable, Category = "File")
+		FString loadFileToString(FString filepath);
+	UFUNCTION(BlueprintCallable, Category = "File")
+		FString loadFileFromDialog();
 };
