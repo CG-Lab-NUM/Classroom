@@ -300,65 +300,65 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\ApplicationCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\ApplicationCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\RHI;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\RHI\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Projects;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Projects\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Json;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Json\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\CEF3Utils;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\CEF3Utils\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\UnrealCEFSubProcess;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\ApplicationCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\ApplicationCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\RHI;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\RHI\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Projects;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Projects\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\Json;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Json\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\CEF3Utils;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\CEF3Utils\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Inc\UnrealCEFSubProcess;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt;;</IncludePath>
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs"/>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs"/>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\CEF3\cef_binary_3.3071.1611.g4a19305_windows64;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\UnrealCEFSubProcess\Definitions.UnrealCEFSubProcess.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealCEFSubProcess\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Mac\Info.plist"/>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest"/>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win64.manifest"/>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win32.manifest"/>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win64.manifest"/>
-    <ResourceCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess.rc"/>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Mac\Info.plist"/>
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest"/>
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win64.manifest"/>
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win32.manifest"/>
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win64.manifest"/>
+    <ResourceCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess.rc"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
