@@ -16,9 +16,9 @@ Windows.Engine:AssetRegistry:bFilterDependenciesWithNoTags:0=false
 Windows.Engine:AssetRegistry:bFilterSearchableNames:0=true
 Windows.Engine:Core.System:LegacyBulkDataOffsets:0=False
 Windows.Engine:Core.System:CanUseUnversionedPropertySerialization:0=False
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Game/Essentials/BP_PlayfabInstance.BP_PlayfabInstance_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Level/Playground.Playground
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Game/Level/Playground.Playground
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Essentials/BP_GameMode.BP_GameMode_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Game:/Script/UnrealEd.ProjectPackagingSettings:bDeterministicShaderCodeOrder:0=False
@@ -53,10 +53,10 @@ Engine:/Script/UnrealEd.EditorEngine:bDrawSocketsInGMode:0=false
 Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:0=false
 Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBound=(Type="ERangeBoundTypesInclusive",Value=5),UpperBound=(Type="ERangeBoundTypesInclusive",Value=120))
 Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
-Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
+Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Game/Essentials/BP_PlayfabInstance.BP_PlayfabInstance_C
 Engine:/Script/EngineSettings.GameMapsSettings:EditorStartupMap:0=/Game/Level/Playground.Playground
 Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Level/Playground.Playground
-Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry.Entry
+Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Game/Level/Playground.Playground
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/Essentials/BP_GameMode.BP_GameMode_C
 Engine:/Script/EngineSettings.GameMapsSettings:LocalMapOptions:0=
 Engine:/Script/EngineSettings.GameMapsSettings:TransitionMap:0=None
@@ -76,10 +76,6 @@ Engine:HTTP:HttpConnectionTimeout:0=60
 Engine:HTTP:HttpReceiveTimeout:0=30
 Engine:HTTP:HttpSendTimeout:0=30
 Engine:HTTP.Curl:bAllowSeekFunction:0=false
-Engine:WebSockets.LibWebSockets:ThreadStackSize:0=131072
-Engine:WebSockets.LibWebSockets:ThreadTargetFrameTimeInSeconds:0=0.0333
-Engine:WebSockets.LibWebSockets:ThreadMinimumSleepTimeInSeconds:0=0.0
-Engine:WebSockets.LibWebSockets:MaxHttpHeaderData:0=32768
 Engine:SlateStyle:DefaultFontName:0=/Engine/EngineFonts/Roboto
 Engine:PlatformMemoryBuckets:LargestMemoryBucket_MinGB:0=32
 Engine:PlatformMemoryBuckets:LargerMemoryBucket_MinGB:0=12
@@ -323,16 +319,14 @@ Engine:/Script/OnlineSubsystemUtils.PartyBeaconHost:TravelSessionTimeoutSecs:0=4
 Engine:/Script/OnlineSubsystemUtils.SpectatorBeaconHost:bLogoutOnSessionTimeout:0=true
 Engine:/Script/OnlineSubsystemUtils.SpectatorBeaconHost:SessionTimeoutSecs:0=10
 Engine:/Script/OnlineSubsystemUtils.SpectatorBeaconHost:TravelSessionTimeoutSecs:0=45
-Engine:InstalledDerivedDataBackendGraph:Root:0=(Type=KeyLength, Length=120, Inner=AsyncPut)
-Engine:InstalledDerivedDataBackendGraph:AsyncPut:0=(Type=AsyncPut, Inner=Hierarchy)
-Engine:InstalledDerivedDataBackendGraph:Hierarchy:0=(Type=Hierarchical, Inner=Boot, Inner=Pak, Inner=CompressedPak, Inner=EnginePak, Inner=EnterprisePak, Inner=Local, Inner=Shared)
-Engine:InstalledDerivedDataBackendGraph:Boot:0=(Type=Boot, Filename="%ENGINEUSERDIR%DerivedDataCache/Boot.ddc", MaxCacheSize=512)
-Engine:InstalledDerivedDataBackendGraph:Local:0=(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, Path="%ENGINEVERSIONAGNOSTICUSERDIR%DerivedDataCache", EditorOverrideSetting=LocalDerivedDataCache)
-Engine:InstalledDerivedDataBackendGraph:Shared:0=(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=true, UnusedFileAge=10, FoldersToClean=10, MaxFileChecksPerSec=1, Path=?EpicDDC, EnvPathOverride=UE-SharedDataCachePath, EditorOverrideSetting=SharedDerivedDataCache)
-Engine:InstalledDerivedDataBackendGraph:Pak:0=(Type=ReadPak, Filename="%GAMEDIR%DerivedDataCache/DDC.ddp")
-Engine:InstalledDerivedDataBackendGraph:CompressedPak:0=(Type=ReadPak, Filename="%GAMEDIR%DerivedDataCache/Compressed.ddp", Compressed=true)
-Engine:InstalledDerivedDataBackendGraph:EnginePak:0=(Type=ReadPak, Filename=../../../Engine/DerivedDataCache/Compressed.ddp, Compressed=true)
-Engine:InstalledDerivedDataBackendGraph:EnterprisePak:0=(Type=ReadPak, Filename=../../../Enterprise/DerivedDataCache/Compressed.ddp, Compressed=true)
+Engine:DerivedDataBackendGraph:Root:0=(Type=KeyLength, Length=120, Inner=AsyncPut)
+Engine:DerivedDataBackendGraph:AsyncPut:0=(Type=AsyncPut, Inner=Hierarchy)
+Engine:DerivedDataBackendGraph:Hierarchy:0=(Type=Hierarchical, Inner=Boot, Inner=Pak, Inner=EnginePak, Inner=Local, Inner=Shared)
+Engine:DerivedDataBackendGraph:Boot:0=(Type=Boot, Filename="%GAMEDIR%DerivedDataCache/Boot.ddc", MaxCacheSize=512)
+Engine:DerivedDataBackendGraph:Local:0=(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, PurgeTransient=true, DeleteUnused=true, UnusedFileAge=34, FoldersToClean=-1, PromptIfMissing=true, Path=%ENGINEDIR%DerivedDataCache, EnvPathOverride=UE-LocalDataCachePath, EditorOverrideSetting=LocalDerivedDataCache)
+Engine:DerivedDataBackendGraph:Shared:0=(Type=FileSystem, ReadOnly=false, Clean=false, Flush=false, DeleteUnused=true, UnusedFileAge=10, FoldersToClean=10, MaxFileChecksPerSec=1, ConsiderSlowAt=70, PromptIfMissing=false, Path=?EpicDDC, EnvPathOverride=UE-SharedDataCachePath, EditorOverrideSetting=SharedDerivedDataCache, CommandLineOverride=SharedDataCachePath)
+Engine:DerivedDataBackendGraph:Pak:0=(Type=ReadPak, Filename="%GAMEDIR%DerivedDataCache/DDC.ddp")
+Engine:DerivedDataBackendGraph:EnginePak:0=(Type=ReadPak, Filename=%ENGINEDIR%DerivedDataCache/DDC.ddp)
 Engine:VirtualTextureChunkDDCCache:UnusedFileAge:0=34
 Engine:VirtualTextureChunkDDCCache:MaxFileChecksPerSec:0=-1 ;no limit
 Engine:VirtualTextureChunkDDCCache:Path:0=%GAMEDIR%DerivedDataCache/VT
@@ -511,9 +505,29 @@ Engine:/Script/HardwareTargeting.HardwareTargetingSettings:TargetedHardwareClass
 Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTargetedHardwareClass:0=Desktop
 Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Maximum
 Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Maximum
-Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
-Game:/Script/UnrealEd.ProjectPackagingSettings:BuildTarget:0=
+Game:/Script/UnrealEd.ProjectPackagingSettings:BuildTarget:0=Classroom
 Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="D/UnrealProjects/Classroom_MultiTest")
+Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
+Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
+Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
+Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=True
+Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionFormats:0=Oodle
+Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileAdditionalCompressionOptions:0=-compressionblocksize=256KB
+Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionMethod:0=Kraken
+Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionLevel_Distribution:0=7
+Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionLevel_TestShipping:0=5
+Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionLevel_DebugDevelopment:0=3
+Game:/Script/UnrealEd.ProjectPackagingSettings:bForceUseProjectCompressionFormatIgnoreHardwareOverride:0=False
+Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
+Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
+Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
+Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
+Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
+Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=False
+Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=True
+Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=True
+Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipMovies:0=False
+Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
 Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
@@ -533,26 +547,6 @@ Game:/Script/UnrealEd.ProjectPackagingSettings:ApplocalPrerequisitesDirectory:0=
 Game:/Script/UnrealEd.ProjectPackagingSettings:LocalizationTargetCatchAllChunkId:0=0
 Game:/Script/UnrealEd.ProjectPackagingSettings:bCookAll:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:bCookMapsOnly:0=False
-Game:/Script/UnrealEd.ProjectPackagingSettings:BuildConfiguration:0=PPBC_Development
-Game:/Script/UnrealEd.ProjectPackagingSettings:FullRebuild:0=False
-Game:/Script/UnrealEd.ProjectPackagingSettings:UsePakFile:0=True
-Game:/Script/UnrealEd.ProjectPackagingSettings:bCompressed:0=True
-Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionFormats:0=Oodle
-Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileAdditionalCompressionOptions:0=-compressionblocksize=256KB
-Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionMethod:0=Kraken
-Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionLevel_Distribution:0=7
-Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionLevel_TestShipping:0=5
-Game:/Script/UnrealEd.ProjectPackagingSettings:PakFileCompressionLevel_DebugDevelopment:0=3
-Game:/Script/UnrealEd.ProjectPackagingSettings:bForceUseProjectCompressionFormatIgnoreHardwareOverride:0=False
-Game:/Script/UnrealEd.ProjectPackagingSettings:bGenerateChunks:0=False
-Game:/Script/UnrealEd.ProjectPackagingSettings:bChunkHardReferencesOnly:0=False
-Game:/Script/UnrealEd.ProjectPackagingSettings:IncludePrerequisites:0=True
-Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeCrashReporter:0=False
-Game:/Script/UnrealEd.ProjectPackagingSettings:InternationalizationPreset:0=English
-Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipEditorContent:0=false
-Game:/Script/UnrealEd.ProjectPackagingSettings:bSharedMaterialNativeLibraries:0=True
-Game:/Script/UnrealEd.ProjectPackagingSettings:bShareMaterialShaderCode:0=True
-Game:/Script/UnrealEd.ProjectPackagingSettings:bSkipMovies:0=False
 Game:Internationalization:LocalizationPaths:0=%GAMEDIR%Content/Localization/Game
 Game:/Script/Engine.GameNetworkManager:TotalNetBandwidth:0=32000
 Game:/Script/Engine.GameNetworkManager:MaxDynamicBandwidth:0=7000
@@ -592,7 +586,7 @@ Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Fill out yo
 Game:/Script/EngineSettings.GeneralProjectSettings:Description:0=
 Game:/Script/EngineSettings.GeneralProjectSettings:LicensingTerms:0=
 Game:/Script/EngineSettings.GeneralProjectSettings:PrivacyPolicy:0=
-Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=Third Person Game Template
+Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=Classroom
 Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVersion:0=1.0.0.0
 Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:0=
 Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
@@ -1096,9 +1090,9 @@ OverlappingVerticeDetectionVer:612FBE52DA53400B910D4F919FB1857C=1
 VisualLogger:A4237A36CAEA41C98FA218F858681BF3=4
 VirtualTextureBuiltDataVersion:804E3F7570884B49A4D68C063C7EB6DC=5
 VariantManagerObjectVer:24BB7AF356464F831F2F2DC249AD96FF=5
+NiagaraVer:FCF57AFA50764283B9A9E658FFA02D32=68
 ChaosClothConfigVer:76A52329092345B598AED841CF2F6AD8=5
 ChaosClothSharedConfigVer:5FBC690755C840AE8E67F1845EFFF13F=1
-NiagaraVer:FCF57AFA50764283B9A9E658FFA02D32=68
 Paper2DVer:11310AED2E554D61AF679AA3C5A1082C=17
 AudioSynesthesiaVer:82E77C4E332343A5B46B13C597310DF3=0
 EditableMeshVer:FB26E4121F154B4D9372550A961D2F70=3

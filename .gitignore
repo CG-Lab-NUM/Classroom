@@ -3,7 +3,6 @@ DerivedDataCache/
 Content/StarterContent/
 Intermediate/Build/
 .vs/
-Plugins/PlayFabSDK/
-Saved/Logs/
-Saved/Config/
-Classroom.uproject
+Plugins/
+Saved/
+*.rar
