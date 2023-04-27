@@ -48,12 +48,12 @@ FString AFileHandler::loadFileFromDialog() {
 	return "";
 }
 
-TArray<FString> AFileHandler::getFilesInFolder() {
+TArray<FString> AFileHandler::getFilesInFolder(FString path) {
 	FString platform = getPlatform();
 	TArray<FString> arr;
 	if (platform == "Windows") {
 		IFileManager& fileManager = IFileManager::Get();
-		FString savedDirectory = FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir());
+		FString savedDirectory = FPaths::Combine(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()), path);
 		FString extensions = "*";
 		fileManager.FindFiles(arr, *savedDirectory, *extensions);
 	}

@@ -23,7 +23,7 @@ protected:
 
 public:
 	UFUNCTION(BlueprintCallable, Category = "File")
-		TArray<FString> getFilesInFolder();
+		TArray<FString> getFilesInFolder(FString path);
 	UFUNCTION(BlueprintCallable, Category = "File")
 		FString getPlatform();
 	UFUNCTION(BlueprintCallable, Category = "File")
