@@ -161,19 +161,19 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\DatasmithArchiCAD\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\DatasmithArchiCAD\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\DatasmithArchiCAD\Inc\DatasmithArchiCAD;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
+    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\DatasmithArchiCAD\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\DatasmithArchiCAD\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\DatasmithArchiCAD\Inc\DatasmithArchiCAD;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Target.cs"/>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Build.cs"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private\DatasmithArchiCAD.cpp">
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Target.cs"/>
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Build.cs"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private\DatasmithArchiCAD.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\DatasmithArchiCAD\Development\DatasmithArchiCAD\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private\DatasmithArchiCAD.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private\DatasmithArchiCAD.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
