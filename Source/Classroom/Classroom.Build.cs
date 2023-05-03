@@ -8,8 +8,8 @@ public class Classroom : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "UMG" });
-        PrivateDependencyModuleNames.AddRange(new string[] { "PlayFab", "PlayFabCpp", "PlayFabCommon" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "UMG", "PlayFab","PlayFabCpp", "PlayFabCommon" });
+        PrivateDependencyModuleNames.AddRange(new string[] {  });
 
         MinFilesUsingPrecompiledHeaderOverride = 1;
         bFasterWithoutUnity = true;
