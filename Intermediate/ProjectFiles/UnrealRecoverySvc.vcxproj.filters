@@ -1,18 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Target.cs" />
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Target.cs" />
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{BF33302D-C46C-459B-BF95-BA7BFF665E46}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{CB608C94-044B-4C37-BFB2-611F81D953A4}</UniqueIdentifier>
+>>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     </Filter>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealRecoverySvc\Config\DefaultEngine.ini">
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealRecoverySvc\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Build.cs" />
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealRecoverySvc\UnrealRecoverySvc.Build.cs" />
     <Filter Include="Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{7CE76618-6534-458A-BC41-6439039EA0CF}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{509E09C4-B81B-4C55-8DD0-BDF7BF71BEE4}</UniqueIdentifier>
+>>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     </Filter>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealRecoverySvc\Private\UnrealRecoverySvc.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealRecoverySvc\Private\UnrealRecoverySvc.cpp">
       <Filter>Private</Filter>
     </ClCompile>
   </ItemGroup>

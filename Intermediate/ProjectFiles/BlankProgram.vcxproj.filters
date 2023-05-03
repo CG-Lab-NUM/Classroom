@@ -1,24 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\BlankProgram.Target.cs" />
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\BlankProgram.Build.cs" />
     <Filter Include="Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{6D30635C-3998-459A-9D15-0A355D2BBFCF}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{6C10DEED-199C-4413-8C59-DD6F416DD930}</UniqueIdentifier>
+>>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     </Filter>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\Private\BlankProgram.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\Private\BlankProgram.h">
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Resources">
+<<<<<<< HEAD
       <UniqueIdentifier>{7373BDDB-55D7-4AEE-8E62-51EFB1FACFC5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Windows">
       <UniqueIdentifier>{1001A7C6-269E-450D-9DF4-13449D05FB50}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{B40491C7-AD5E-4796-8DC8-CC43A8885A3C}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\Resources\Windows\BlankProgram.ico">
+    <Filter Include="Resources\Windows">
+      <UniqueIdentifier>{302D9429-5B2D-461E-83F9-A3B65EA0E8A5}</UniqueIdentifier>
+>>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
+    </Filter>
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\BlankProgram\Resources\Windows\BlankProgram.ico">
       <Filter>Resources\Windows</Filter>
     </None>
   </ItemGroup>

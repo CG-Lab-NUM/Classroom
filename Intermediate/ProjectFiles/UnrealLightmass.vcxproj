@@ -466,202 +466,206 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+<<<<<<< HEAD
     <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\CoreUObject;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\CoreUObject\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\zlib\v1.2.8\include\Win64\VS2015;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\SwarmInterface;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Editor;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Editor\SwarmInterface\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Projects;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Projects\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Json;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Json\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\ApplicationCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\ApplicationCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\RHI;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\RHI\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Messaging;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Messaging\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\UnrealLightmass;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Intel\Embree\Embree270\Win64\include;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
+=======
+    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\CoreUObject;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\CoreUObject\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\zlib\v1.2.8\include\Win64\VS2015;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\SwarmInterface;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Editor;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Editor\SwarmInterface\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Projects;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Projects\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Json;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Json\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\ApplicationCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\ApplicationCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\RHI;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\RHI\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\Messaging;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Messaging\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Inc\UnrealLightmass;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Intel\Embree\Embree270\Win64\include;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+>>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs"/>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini"/>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs"/>
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini"/>
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Exporter.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Importer.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassScene.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\LightmassSwarm.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Material.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\Mesh.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnrealLightmass.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BSP.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\BuildOptions.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Collision.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Embree.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FinalGather.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\GatheredLightingSample.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\FluidSurface.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\GatheredLightingSample.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Landscape.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Lighting.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingCache.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingMesh.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.inl"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightingSystem.inl"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\LightmapData.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Mappings.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\MonteCarlo.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PhotonMapping.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\PrecomputedVisibility.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Radiosity.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Radiosity.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Raster.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\SampleVolume.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\StaticMesh.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\Texture.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMapping.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMappingSetup.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\TextureMappingSetup.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\VolumeDistanceField.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMkDOP.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h"/>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\MersennePrimeTwister.tps"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMath.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMMathSSE.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMOctree.h"/>
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\MersennePrimeTwister.tps"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\SFMT.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMHelpers.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMStats.h"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source\ThirdParty\Windows\DirectX\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\UnrealLightmass\Development\UnrealLightmass\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMThreading.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\ImportExport.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\LightmassPublic.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\MaterialExport.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\MeshExport.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\SceneExport.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

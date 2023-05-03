@@ -466,25 +466,29 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+<<<<<<< HEAD
     <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareSDK;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public\Containers;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
+=======
+    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareSDK;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public\Containers;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+>>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Target.cs"/>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Build.cs"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareDLL.cpp">
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Target.cs"/>
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\TextureShareSDK.Build.cs"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareDLL.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Development\TextureShareSDK\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareInterface.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private\TextureShareInterface.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Development\TextureShareSDK\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareContainers.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareDLL.h"/>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareInterface.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareContainers.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareDLL.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public\TextureShareInterface.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

@@ -300,19 +300,23 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+<<<<<<< HEAD
     <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\BootstrapPackagedGame\Inc\BootstrapPackagedGame;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
+=======
+    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\BootstrapPackagedGame\Inc\BootstrapPackagedGame;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
+>>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs"/>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs"/>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Target.cs"/>
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\BootstrapPackagedGame.Build.cs"/>
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\BootstrapPackagedGame\Development\BootstrapPackagedGame\Definitions.h</ForcedIncludeFiles>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.h"/>
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Windows\BootstrapPackagedGame\Private\BootstrapPackagedGame.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
