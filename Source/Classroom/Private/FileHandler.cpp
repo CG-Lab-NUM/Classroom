@@ -60,6 +60,18 @@ TArray<FString> AFileHandler::getFilesInFolder(FString path) {
 	return arr;
 }
 
+TArray<FString> AFileHandler::getFoldersInFolder(FString path) {
+	FString platform = getPlatform();
+	TArray<FString> arr;
+	if (platform == "Windows") {
+		IFileManager& fileManager = IFileManager::Get();
+		FString savedDirectory = FPaths::Combine(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()), path);
+		FString extensions = "*";
+		fileManager.FindFiles(arr, *savedDirectory, false, true);
+	}
+	return arr;
+}
+
 FString AFileHandler::getPlatform() {
 #if PLATFORM_WINDOWS
 	return "Windows";

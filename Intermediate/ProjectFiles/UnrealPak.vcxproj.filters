@@ -4,7 +4,11 @@
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealPak\UnrealPak.Target.cs" />
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealPak\UnrealPak.Build.cs" />
     <Filter Include="Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{7D11F133-4655-4450-9C0F-61CCB43DB5EC}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{B125F44F-1DB3-46C1-BE99-4352ABB602A6}</UniqueIdentifier>
+>>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealPak\Private\UnrealPak.cpp">
       <Filter>Private</Filter>

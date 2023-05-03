@@ -3,14 +3,22 @@
   <ItemGroup>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{14FB8145-8D47-4A30-9662-964C1A24CFF1}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{84439CB0-96F5-423C-A532-6E1C35B3DBFC}</UniqueIdentifier>
+>>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
     <Filter Include="Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{F3A5CD0F-D5AD-4120-9703-B420E01F5047}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{A8A7FF0B-EDC4-424A-B11B-B934B21E03E6}</UniqueIdentifier>
+>>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
       <Filter>Private</Filter>
@@ -127,7 +135,11 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Specifiers">
+<<<<<<< HEAD
       <UniqueIdentifier>{E5A21EDD-EB88-4AD3-91B4-B3BAACE40468}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{0F7F03FB-4374-497A-ABF8-3DFAE1B19D85}</UniqueIdentifier>
+>>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
       <Filter>Private\Specifiers</Filter>
@@ -175,19 +187,31 @@
       <Filter>Private\Specifiers</Filter>
     </ClInclude>
     <Filter Include="Public">
+<<<<<<< HEAD
       <UniqueIdentifier>{39E06696-7A10-4789-A98C-64644ABAA622}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{4BE67F02-DC44-4BB5-A466-6D266D159464}</UniqueIdentifier>
+>>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     </Filter>
     <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
       <Filter>Public</Filter>
     </ClInclude>
     <Filter Include="Resources">
+<<<<<<< HEAD
       <UniqueIdentifier>{1A0015F3-C77A-4874-8787-968F978C3C47}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{01AD35BF-8C2A-40B0-A213-64D4C000977A}</UniqueIdentifier>
+>>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     </Filter>
     <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest">
       <Filter>Resources</Filter>
     </Manifest>
     <Filter Include="Resources\UHTDebugging">
+<<<<<<< HEAD
       <UniqueIdentifier>{205E946B-30B6-4329-9771-6E88716BB663}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{CC695778-84D3-450C-AA9A-9876005FB32E}</UniqueIdentifier>
+>>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     </Filter>
     <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\DocumentationObjects.h">
       <Filter>Resources\UHTDebugging</Filter>

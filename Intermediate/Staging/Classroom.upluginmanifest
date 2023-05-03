@@ -68,27 +68,95 @@
 			}
 		},
 		{
-			"File": "../../../Classroom/Plugins/PlayFabGSDK/PlayFabGSDK.uplugin",
+			"File": "../../../Classroom/Plugins/VaRestPlugin/VaRest.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 33,
+				"VersionName": "1.1.33",
+				"FriendlyName": "VaRest",
+				"Description": "Plugin that makes REST (JSON) server communication easy to use",
+				"Category": "Network",
+				"CreatedBy": "Vladimir Alyamkin",
+				"CreatedByURL": "https://ufna.dev",
+				"DocsURL": "https://bit.ly/VaRest-Docs",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f",
+				"SupportURL": "",
+				"EngineVersion": "4.27.0",
+				"CanContainContent": false,
+				"Installed": true,
+				"Modules": [
+					{
+						"Name": "VaRest",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					},
+					{
+						"Name": "VaRestEditor",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Classroom/Plugins/RuntimeFilesDownloader/RuntimeFilesDownloader.uplugin",
 			"Descriptor": 
 			{
 				"FileVersion": 3,
 				"Version": 1,
 				"VersionName": "1.0",
-				"FriendlyName": "PlayFabGSDK",
-				"Description": "Unreal Integration of the PlayFab GSDK",
-				"Category": "PlayFab",
-				"CreatedBy": "PlayFab",
-				"CreatedByURL": "",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
+				"FriendlyName": "RuntimeFilesDownloader",
+				"Description": "Runtime Files Downloader is an open-source plugin for downloading files over HTTP / HTTPS at runtime.",
+				"Category": "Code Plugins",
+				"CreatedBy": "Georgy Treshchev",
+				"CreatedByURL": "https://github.com/gtreshchev",
+				"DocsURL": "https://github.com/gtreshchev/RuntimeFilesDownloader/wiki/",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e7e6df6d6e9c46f0ae35163eab67ff9a",
+				"SupportURL": "https://georgy.dev/",
+				"EngineVersion": "4.27.0",
 				"CanContainContent": false,
-				"IsBetaVersion": true,
+				"Installed": true,
 				"Modules": [
 					{
-						"Name": "PlayFabGSDK",
+						"Name": "RuntimeFilesDownloader",
 						"Type": "Runtime",
-						"LoadingPhase": "EarliestPossible"
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Classroom/Plugins/RealTimeImport/RealTimeImport.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 327,
+				"VersionName": "3.27",
+				"FriendlyName": "RealTimeImport",
+				"Description": "",
+				"Category": "Importers",
+				"CreatedBy": "Socke",
+				"CreatedByURL": "",
+				"DocsURL": "http://virtualbird.de/ue4Doku/RealTimeImport/",
+				"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5625d7b404e44200bb2f9cdb7dcf1c6a",
+				"SupportURL": "mailto:unrealmarketplace@virtualbird.de",
+				"EngineVersion": "4.27.0",
+				"CanContainContent": false,
+				"Installed": true,
+				"Modules": [
+					{
+						"Name": "RealTimeImport",
+						"Type": "Runtime",
+						"LoadingPhase": "PreLoadingScreen",
+						"WhitelistPlatforms": [
+							"Win64",
+							"Win32",
+							"Mac",
+							"Linux",
+							"Android",
+							"IOS"
+						]
 					}
 				]
 			}
@@ -484,41 +552,6 @@
 						"Name": "SignificanceManager",
 						"Type": "Runtime",
 						"LoadingPhase": "PreDefault"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Developer/PixWinPlugin/PixWinPlugin.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "PIX for Windows GPU Capture Plugin",
-				"Description": "PIX for Windows graphics debugger integration.",
-				"Category": "Rendering",
-				"CreatedBy": "Epic Games Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"SupportedTargetPlatforms": [
-					"Win64"
-				],
-				"Modules": [
-					{
-						"Name": "PixWinPlugin",
-						"Type": "DeveloperTool",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win64"
-						],
-						"BlacklistTargets": [
-							"Server"
-						]
 					}
 				]
 			}
@@ -2083,70 +2116,6 @@
 			}
 		},
 		{
-			"File": "../../../Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 2,
-				"VersionName": "2.0",
-				"FriendlyName": "WMF Media Player",
-				"Description": "Implements a media player using the Windows Media Foundation framework.",
-				"Category": "Media Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "https://forums.unrealengine.com/showthread.php?46879-Media-Framework-Documentation-for-4-5-Preview",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "WmfMedia",
-						"Type": "Runtime",
-						"LoadingPhase": "PostConfigInit",
-						"WhitelistPlatforms": [
-							"Win32",
-							"Win64",
-							"XboxOne"
-						],
-						"BlacklistTargets": [
-							"Server"
-						]
-					},
-					{
-						"Name": "WmfMediaEditor",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit",
-						"BlacklistTargets": [
-							"Server"
-						]
-					},
-					{
-						"Name": "WmfMediaFactory",
-						"Type": "Editor",
-						"LoadingPhase": "PostEngineInit",
-						"BlacklistTargets": [
-							"Server"
-						]
-					},
-					{
-						"Name": "WmfMediaFactory",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PostEngineInit",
-						"WhitelistPlatforms": [
-							"Mac",
-							"Linux",
-							"Win32",
-							"Win64"
-						],
-						"BlacklistTargets": [
-							"Server"
-						]
-					}
-				]
-			}
-		},
-		{
 			"File": "../../../Engine/Plugins/MeshPainting/MeshPainting.uplugin",
 			"Descriptor": 
 			{
@@ -3433,46 +3402,6 @@
 						"Name": "AudioSynesthesiaEditor",
 						"Type": "Editor",
 						"LoadingPhase": "PostDefault"
-					}
-				]
-			}
-		},
-		{
-			"File": "../../../Engine/Plugins/Runtime/WebMMoviePlayer/WebMMoviePlayer.uplugin",
-			"Descriptor": 
-			{
-				"FileVersion": 3,
-				"Version": 1,
-				"VersionName": "1.0",
-				"FriendlyName": "Movie Player for WebM files",
-				"Description": "Movie Player for WebM files",
-				"Category": "Movie Players",
-				"CreatedBy": "Epic Games, Inc.",
-				"CreatedByURL": "http://epicgames.com",
-				"DocsURL": "",
-				"MarketplaceURL": "",
-				"SupportURL": "",
-				"EnabledByDefault": true,
-				"CanContainContent": false,
-				"Modules": [
-					{
-						"Name": "WebMMoviePlayer",
-						"Type": "RuntimeNoCommandlet",
-						"LoadingPhase": "PreLoadingScreen",
-						"WhitelistPlatforms": [
-							"Win64",
-							"Linux",
-							"Mac"
-						],
-						"BlacklistTargets": [
-							"Server"
-						]
-					}
-				],
-				"Plugins": [
-					{
-						"Name": "WebMMedia",
-						"Enabled": true
 					}
 				]
 			}
