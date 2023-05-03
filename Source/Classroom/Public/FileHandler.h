@@ -25,6 +25,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "File")
 		TArray<FString> getFilesInFolder(FString path);
 	UFUNCTION(BlueprintCallable, Category = "File")
+		TArray<FString> getFoldersInFolder(FString path);
+	UFUNCTION(BlueprintCallable, Category = "File")
 		FString getPlatform();
 	UFUNCTION(BlueprintCallable, Category = "File")
 		FString loadFileToString(FString filepath);

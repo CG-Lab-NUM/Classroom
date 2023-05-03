@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{8DEC21DE-43C9-2150-067B-64B296AE5E9A}",
+	"EngineAssociation": "{AD6649C5-4FA5-AE17-2FDF-E8B01BCCB70F}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -38,6 +38,15 @@
 			"Name": "RealTimeImport",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5625d7b404e44200bb2f9cdb7dcf1c6a"
+		},
+		{
+			"Name": "VivoxVoiceChat",
+			"Enabled": true
+		},
+		{
+			"Name": "UniversalVoiceChatPro",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/eda7d893311147d1b7a6e8084be096c4"
 		}
 	]
 }
