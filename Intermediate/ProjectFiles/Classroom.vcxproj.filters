@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Classroom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A1EC9F86-A8AB-4F61-8DC8-E3A2E4048D99}</UniqueIdentifier>
+      <UniqueIdentifier>{C5F37DAA-B61A-400F-A2CE-105072FF9C8C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Classroom.Target.cs">
       <Filter>Source</Filter>
@@ -17,7 +17,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{EC20E33E-EB36-4989-B414-1FD63C9FF4AA}</UniqueIdentifier>
+      <UniqueIdentifier>{CC5DE43D-EBB5-468E-AFF4-2F0382C212B3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,22 +35,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{C33B9B8D-57E6-48B9-883C-5DE8EDB65D6F}</UniqueIdentifier>
+      <UniqueIdentifier>{154C4DE5-15C4-4149-A329-9A127B85D650}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\PlayFab">
-      <UniqueIdentifier>{973857B3-453B-4A5C-B162-78AFAE0D80DD}</UniqueIdentifier>
+      <UniqueIdentifier>{AB3CC835-7D0F-4E55-B697-47E45F86B3A2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\PlayFab\Source">
-      <UniqueIdentifier>{160F9ACA-15D2-4606-9EEC-DEBEC1D34975}</UniqueIdentifier>
+      <UniqueIdentifier>{74A7F4A4-7807-4323-B3B7-B666976B4F0F}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\PlayFab\Source\PlayFab">
-      <UniqueIdentifier>{FAF3ACAC-32E3-468D-9A53-8B6364B5D1CD}</UniqueIdentifier>
+      <UniqueIdentifier>{36950886-A0EB-428C-8082-F8C49D2B97C2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PlayFab\Source\PlayFab\PlayFab.Build.cs">
       <Filter>Plugins\PlayFab\Source\PlayFab</Filter>
     </None>
     <Filter Include="Plugins\PlayFab\Source\PlayFab\Classes">
-      <UniqueIdentifier>{5661D126-3635-407C-B839-46C7AB459239}</UniqueIdentifier>
+      <UniqueIdentifier>{ED9E31E4-C1C2-4D71-A995-6ADED0FDA501}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabAdminAPI.h">
       <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
@@ -212,7 +212,7 @@
       <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\PlayFab\Source\PlayFab\Private">
-      <UniqueIdentifier>{7875952A-C33D-4985-8F1A-B7C375C756B5}</UniqueIdentifier>
+      <UniqueIdentifier>{2F9CC83E-1D15-43B1-9D7D-5AAFC2F0B682}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFab.cpp">
       <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
@@ -368,7 +368,7 @@
       <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\PlayFab\Source\PlayFab\Public">
-      <UniqueIdentifier>{D9A81E9C-2A08-447C-AA10-50D08BDB6E86}</UniqueIdentifier>
+      <UniqueIdentifier>{43E0C71E-4EA2-42A2-8AF9-443AA30B4125}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Public\IPlayFab.h">
       <Filter>Plugins\PlayFab\Source\PlayFab\Public</Filter>
@@ -377,55 +377,55 @@
       <Filter>Plugins\PlayFab</Filter>
     </None>
     <Filter Include="Plugins\PlayFab\Resources">
-      <UniqueIdentifier>{BAC58202-EE44-4E55-A9AF-84582E2ACBA9}</UniqueIdentifier>
+      <UniqueIdentifier>{0FDC7FB0-D31A-4105-BA60-89AF7AAE0882}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PlayFab\Resources\Icon128.png">
       <Filter>Plugins\PlayFab\Resources</Filter>
     </None>
     <Filter Include="Plugins\RealTimeImport">
-      <UniqueIdentifier>{FB6AA545-5998-463F-AEA4-45EE3DBA5E3F}</UniqueIdentifier>
+      <UniqueIdentifier>{22B66F76-A6AE-499F-B96F-FC70241CCFA8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RealTimeImport\RealTimeImport.uplugin">
       <Filter>Plugins\RealTimeImport</Filter>
     </None>
     <Filter Include="Plugins\RealTimeImport\Resources">
-      <UniqueIdentifier>{CA31B102-A323-46F6-A35B-1B0C6AF898B6}</UniqueIdentifier>
+      <UniqueIdentifier>{FBD97C13-43EC-493C-A85C-76879D721341}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RealTimeImport\Resources\Icon128.png">
       <Filter>Plugins\RealTimeImport\Resources</Filter>
     </None>
     <Filter Include="Plugins\RuntimeFilesDownloader">
-      <UniqueIdentifier>{BB996D88-9317-4400-BD3A-1B0E342AD74E}</UniqueIdentifier>
+      <UniqueIdentifier>{2B571CB4-7C6C-482F-AE78-7B11CF473DD2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RuntimeFilesDownloader\RuntimeFilesDownloader.uplugin">
       <Filter>Plugins\RuntimeFilesDownloader</Filter>
     </None>
     <Filter Include="Plugins\RuntimeFilesDownloader\Resources">
-      <UniqueIdentifier>{B8515797-F41F-47B7-A581-8C7A64B06E57}</UniqueIdentifier>
+      <UniqueIdentifier>{2087DE3A-2D88-4891-A177-6B660B56DFCB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RuntimeFilesDownloader\Resources\Icon128.png">
       <Filter>Plugins\RuntimeFilesDownloader\Resources</Filter>
     </None>
     <Filter Include="Plugins\UniversalVoiceChatPro">
-      <UniqueIdentifier>{F256C55A-5ECC-45F6-8C31-DFF1A8A4DAD3}</UniqueIdentifier>
+      <UniqueIdentifier>{B20BC5A7-1B03-43FC-8F60-69A62E0DB661}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\UniversalVoiceChatPro\UniversalVoiceChatPro.uplugin">
       <Filter>Plugins\UniversalVoiceChatPro</Filter>
     </None>
     <Filter Include="Plugins\UniversalVoiceChatPro\Resources">
-      <UniqueIdentifier>{14778BB0-EE99-4009-8F55-77A46A861115}</UniqueIdentifier>
+      <UniqueIdentifier>{65E40D34-0184-4C73-85C7-24C28B725BB2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\UniversalVoiceChatPro\Resources\Icon128.png">
       <Filter>Plugins\UniversalVoiceChatPro\Resources</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin">
-      <UniqueIdentifier>{07419EB2-5014-4160-9602-3CB18D12C180}</UniqueIdentifier>
+      <UniqueIdentifier>{F892BC2D-7E98-4C95-9D65-48A1EAD167D3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\VaRest.uplugin">
       <Filter>Plugins\VaRestPlugin</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Config">
-      <UniqueIdentifier>{9C755871-251D-4A93-9156-81ADFDC1EE4B}</UniqueIdentifier>
+      <UniqueIdentifier>{34A6F1E2-4155-4B16-9C98-CB135551B227}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Config\BaseVaRest.ini">
       <Filter>Plugins\VaRestPlugin\Config</Filter>
@@ -434,19 +434,19 @@
       <Filter>Plugins\VaRestPlugin\Config</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Resources">
-      <UniqueIdentifier>{33C8E719-4332-42AB-8F64-17D43FA734DE}</UniqueIdentifier>
+      <UniqueIdentifier>{76D357FC-F869-4FC4-8438-627040FA49D7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Resources\Icon128.png">
       <Filter>Plugins\VaRestPlugin\Resources</Filter>
     </None>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCommon">
-      <UniqueIdentifier>{ED10B28D-217B-4946-9678-FCBB09AB006A}</UniqueIdentifier>
+      <UniqueIdentifier>{F6DFC003-7940-47E5-B109-E04971F0464B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\PlayFabCommon.Build.cs">
       <Filter>Plugins\PlayFab\Source\PlayFabCommon</Filter>
     </None>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCommon\Private">
-      <UniqueIdentifier>{81A690F3-11A0-4228-A8DD-2343248A1840}</UniqueIdentifier>
+      <UniqueIdentifier>{2D3E8BB6-3229-4AA0-B5F5-BF5C60D33581}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Private\PlayFabCommmonUtils.cpp">
       <Filter>Plugins\PlayFab\Source\PlayFabCommon\Private</Filter>
@@ -461,7 +461,7 @@
       <Filter>Plugins\PlayFab\Source\PlayFabCommon\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCommon\Public">
-      <UniqueIdentifier>{86215692-1A85-4A75-8528-26E530AFF5FB}</UniqueIdentifier>
+      <UniqueIdentifier>{7F16F8F1-952B-46FC-BEDD-AA4DB97AE265}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Public\PlayFabAuthenticationContext.h">
       <Filter>Plugins\PlayFab\Source\PlayFabCommon\Public</Filter>
@@ -479,19 +479,19 @@
       <Filter>Plugins\PlayFab\Source\PlayFabCommon\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCpp">
-      <UniqueIdentifier>{C1B83158-D476-4A77-A56E-A626C0710AB1}</UniqueIdentifier>
+      <UniqueIdentifier>{6039D03D-CBB1-44F2-AED9-E4DB1E3A3ED3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\PlayFabCpp.Build.cs">
       <Filter>Plugins\PlayFab\Source\PlayFabCpp</Filter>
     </None>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Private">
-      <UniqueIdentifier>{6590C4ED-53C7-4B8F-BA9E-B85CB286B104}</UniqueIdentifier>
+      <UniqueIdentifier>{71E64D24-CE5E-4431-9E40-A8F205F79DD7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\PlayFab.cpp">
       <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Private\Core">
-      <UniqueIdentifier>{54A0311F-0DB9-48D7-9210-DD0648710000}</UniqueIdentifier>
+      <UniqueIdentifier>{7F8A036A-FC0A-4F6D-A044-AF35CBD2031B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabAdminAPI.cpp">
       <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
@@ -641,13 +641,13 @@
       <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Public">
-      <UniqueIdentifier>{1B602ED3-E8E8-40C3-99F1-8F786722AED6}</UniqueIdentifier>
+      <UniqueIdentifier>{C36B17E9-9C8A-4C11-891D-B091E05CD2D1}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\PlayFab.h">
       <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Public\Core">
-      <UniqueIdentifier>{9DD7B86B-26AB-4FA8-92E8-6F7D3C23629F}</UniqueIdentifier>
+      <UniqueIdentifier>{D4E9A76C-B2A7-4D3A-814C-184E555869EE}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAdminAPI.h">
       <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
@@ -803,16 +803,16 @@
       <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
     <Filter Include="Plugins\RealTimeImport\Source">
-      <UniqueIdentifier>{A807BDFB-2E80-4475-BC55-F126247F2E9C}</UniqueIdentifier>
+      <UniqueIdentifier>{62B75B5A-89F7-4F14-94A8-18FBACB55C91}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\RealTimeImport\Source\RealTimeImport">
-      <UniqueIdentifier>{71C1E072-5909-43F0-AEB8-9C341A5F7292}</UniqueIdentifier>
+      <UniqueIdentifier>{98CF0280-0A45-429C-B5F5-8D70858BC280}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RealTimeImport\Source\RealTimeImport\RealTimeImport.Build.cs">
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport</Filter>
     </None>
     <Filter Include="Plugins\RealTimeImport\Source\RealTimeImport\Private">
-      <UniqueIdentifier>{E2800ADB-B4EB-48A6-BC9D-C2C6C1BB172A}</UniqueIdentifier>
+      <UniqueIdentifier>{9827C070-5F0D-42E1-9D3A-EBB554C7630F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\RealTimeImport\Source\RealTimeImport\Private\FileFunctionsRealTimeImport.cpp">
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Private</Filter>
@@ -848,7 +848,7 @@
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\RealTimeImport\Source\RealTimeImport\Public">
-      <UniqueIdentifier>{ACAAD494-CD0F-4498-9E47-F9971F080F1D}</UniqueIdentifier>
+      <UniqueIdentifier>{2501D753-62EB-4057-B051-42314848E560}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\RealTimeImport\Source\RealTimeImport\Public\FileFunctionsRealTimeImport.h">
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Public</Filter>
@@ -884,16 +884,16 @@
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source">
-      <UniqueIdentifier>{B15D3914-EFAC-4255-B440-653EE3392C27}</UniqueIdentifier>
+      <UniqueIdentifier>{F7AE1B13-0B37-4A87-A5E8-8E343B54A25A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader">
-      <UniqueIdentifier>{4B09CDC0-CA3F-4278-8799-62BE786D1B56}</UniqueIdentifier>
+      <UniqueIdentifier>{6AC03D31-014E-48FF-843D-DDA855CBEA1F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\RuntimeFilesDownloader.Build.cs">
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader</Filter>
     </None>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private">
-      <UniqueIdentifier>{39EBB22C-22A1-498E-9AE1-BA9BFCDC7680}</UniqueIdentifier>
+      <UniqueIdentifier>{CD6B33E8-9286-44B4-A1AA-E14FE2938FC0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private\BaseFilesDownloader.cpp">
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private</Filter>
@@ -908,7 +908,7 @@
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public">
-      <UniqueIdentifier>{D3B6B86E-3710-4431-BEFD-51E37B934BDD}</UniqueIdentifier>
+      <UniqueIdentifier>{3D84CA0D-8524-4A70-A4B3-8C602BF45503}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public\BaseFilesDownloader.h">
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public</Filter>
@@ -926,10 +926,10 @@
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source">
-      <UniqueIdentifier>{32BA6AEC-C856-4F6C-8A24-43F4D680E56A}</UniqueIdentifier>
+      <UniqueIdentifier>{33D1AC38-73B5-4D27-97B4-01F313D14F93}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro">
-      <UniqueIdentifier>{04F37BC5-231B-413E-B508-D0280680F429}</UniqueIdentifier>
+      <UniqueIdentifier>{DD3B392A-1CD8-41CA-96D0-E548D3C92BE9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\MeoPlayVoiceChat_AndroidAPL.xml">
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro</Filter>
@@ -941,7 +941,7 @@
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro</Filter>
     </None>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private">
-      <UniqueIdentifier>{D8F0948D-15B0-40DA-9577-55576E97CC99}</UniqueIdentifier>
+      <UniqueIdentifier>{C6E84DBF-892C-422F-B910-1722AD693486}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private\AudioCaptureAndroid.cpp">
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private</Filter>
@@ -959,7 +959,7 @@
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public">
-      <UniqueIdentifier>{9D1B9089-33AC-4671-BC91-1F00A43CEB27}</UniqueIdentifier>
+      <UniqueIdentifier>{CFECD25A-6C7D-4F79-BDB4-94CCAF3FAED5}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public\AudioCaptureAndroid.h">
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public</Filter>
@@ -977,16 +977,16 @@
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\VaRestPlugin\Source">
-      <UniqueIdentifier>{9BA5FA13-F7DA-448C-AF5C-F1AF2ABB66EC}</UniqueIdentifier>
+      <UniqueIdentifier>{FF56C10E-439A-430B-AC4A-D6E6641755CD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRest">
-      <UniqueIdentifier>{0A8131D0-C6ED-47B5-9C7F-7A55D7FF3E55}</UniqueIdentifier>
+      <UniqueIdentifier>{161E9445-8164-4566-AA27-F143B8A05D6C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Source\VaRest\VaRest.Build.cs">
       <Filter>Plugins\VaRestPlugin\Source\VaRest</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRest\Private">
-      <UniqueIdentifier>{20E0231A-2FE0-43BF-89E6-5C8ABD7D94AF}</UniqueIdentifier>
+      <UniqueIdentifier>{1C5C516A-C15A-4AD2-B2BE-8903A2B4FFDE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VaRestPlugin\Source\VaRest\Private\VaRest.cpp">
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Private</Filter>
@@ -1016,7 +1016,7 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRest\Public">
-      <UniqueIdentifier>{5ADC8E46-DE5E-4C80-9F5D-0641761D18AC}</UniqueIdentifier>
+      <UniqueIdentifier>{DCE1C317-CD55-41BB-99C4-C9AC9BF08DDA}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VaRestPlugin\Source\VaRest\Public\VaRest.h">
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Public</Filter>
@@ -1046,13 +1046,13 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRestEditor">
-      <UniqueIdentifier>{1BA8D996-36DB-40E7-8349-C8CF5D6C5E1A}</UniqueIdentifier>
+      <UniqueIdentifier>{5B2A23BF-2FA6-4382-B43D-EEBC9B11A92A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Source\VaRestEditor\VaRestEditor.Build.cs">
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRestEditor\Private">
-      <UniqueIdentifier>{A7C40605-F505-4322-B516-46B7E727D900}</UniqueIdentifier>
+      <UniqueIdentifier>{D981B68A-000F-41ED-BB9D-3FB8EBF4A042}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VaRestPlugin\Source\VaRestEditor\Private\VaRestEditor.cpp">
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Private</Filter>
@@ -1061,7 +1061,7 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRestEditor\Public">
-      <UniqueIdentifier>{85370B7A-DFFB-4117-BADE-120F2531AB0B}</UniqueIdentifier>
+      <UniqueIdentifier>{CF5BD118-6FC7-4EA9-ADB0-D2850D67799D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VaRestPlugin\Source\VaRestEditor\Public\VaRestEditor.h">
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Public</Filter>
@@ -1070,7 +1070,7 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Public</Filter>
     </ClInclude>
     <Filter Include="Source\Classroom">
-      <UniqueIdentifier>{91EB19BC-9C44-4941-9AEE-4C7ADCDB2AD5}</UniqueIdentifier>
+      <UniqueIdentifier>{F826C47E-0FAA-4A0F-940B-3191E92E2E7F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Classroom\Classroom.Build.cs">
       <Filter>Source\Classroom</Filter>
@@ -1082,7 +1082,7 @@
       <Filter>Source\Classroom</Filter>
     </ClInclude>
     <Filter Include="Source\Classroom\Private">
-      <UniqueIdentifier>{A369C599-97B6-43AA-BEA5-D9BF36DF5B76}</UniqueIdentifier>
+      <UniqueIdentifier>{A4B5D7B7-11FC-4A44-A990-D0F6B0B638CC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Classroom\Private\ClassroomLibrary.cpp">
       <Filter>Source\Classroom\Private</Filter>
@@ -1103,7 +1103,7 @@
       <Filter>Source\Classroom\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Classroom\Public">
-      <UniqueIdentifier>{C0DAF508-D00F-4515-B58B-4DF7AF8393AB}</UniqueIdentifier>
+      <UniqueIdentifier>{A221AC5C-A96D-4C98-AC03-DDB76D4017F5}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Classroom\Public\ClassroomLibrary.h">
       <Filter>Source\Classroom\Public</Filter>

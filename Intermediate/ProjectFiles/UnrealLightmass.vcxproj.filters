@@ -3,17 +3,17 @@
   <ItemGroup>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{EE7C5AEE-3314-459C-83E9-262A84600616}</UniqueIdentifier>
+      <UniqueIdentifier>{74E3B360-A68E-4F6A-B63D-785B3BC5CEAF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealLightmass\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\UnrealLightmass.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{D161A049-0E6C-4A8A-A214-0AD77F5875F4}</UniqueIdentifier>
+      <UniqueIdentifier>{230C9010-7D95-46E8-800A-CC3D8D1ED9DB}</UniqueIdentifier>
     </Filter>
     <Filter Include="Private\CPUSolver">
-      <UniqueIdentifier>{9A1FB657-355C-41F5-A789-04E54CF1245A}</UniqueIdentifier>
+      <UniqueIdentifier>{0C59D458-5067-4D36-B38C-CD42F2BAAE1B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\CPUSolver\CPUSolver.cpp">
       <Filter>Private\CPUSolver</Filter>
@@ -22,7 +22,7 @@
       <Filter>Private\CPUSolver</Filter>
     </ClInclude>
     <Filter Include="Private\ImportExport">
-      <UniqueIdentifier>{CBEDEDE7-A5BF-47E5-B3E0-C89E065632E4}</UniqueIdentifier>
+      <UniqueIdentifier>{04B45054-4B2E-4085-B71F-2064769095C3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\ImportExport\3DVisualizer.cpp">
       <Filter>Private\ImportExport</Filter>
@@ -67,7 +67,7 @@
       <Filter>Private\ImportExport</Filter>
     </ClInclude>
     <Filter Include="Private\Launch">
-      <UniqueIdentifier>{4557D3EE-AB0F-483F-A3B3-6E59ABF2FFA4}</UniqueIdentifier>
+      <UniqueIdentifier>{4776AAD8-D4B1-4FFD-B361-FC05EAC6A1A5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Launch\UnitTest.cpp">
       <Filter>Private\Launch</Filter>
@@ -82,7 +82,7 @@
       <Filter>Private\Launch</Filter>
     </ClInclude>
     <Filter Include="Private\Lighting">
-      <UniqueIdentifier>{90133F27-85F0-41E8-A483-04C448EF39C9}</UniqueIdentifier>
+      <UniqueIdentifier>{ACA96E7F-4F88-4956-AD73-8D58A5FAA82F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\Lighting\AdaptiveVolumetricLightmap.cpp">
       <Filter>Private\Lighting</Filter>
@@ -202,7 +202,7 @@
       <Filter>Private\Lighting</Filter>
     </ClCompile>
     <Filter Include="Private\LightmassCore">
-      <UniqueIdentifier>{FC38D5F3-7838-4ED7-A0FD-35F1B1C9E8E0}</UniqueIdentifier>
+      <UniqueIdentifier>{C5D94462-0982-4F4D-A309-2BEBC01295A0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\LMCore.cpp">
       <Filter>Private\LightmassCore</Filter>
@@ -211,7 +211,7 @@
       <Filter>Private\LightmassCore</Filter>
     </ClInclude>
     <Filter Include="Private\LightmassCore\Math">
-      <UniqueIdentifier>{BFEFA0F3-2C18-4428-9764-D77FE5EE87EF}</UniqueIdentifier>
+      <UniqueIdentifier>{880B9F3E-85B6-4478-A1F0-8D10D7D89F5B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Math\LMCollision.h">
       <Filter>Private\LightmassCore\Math</Filter>
@@ -238,7 +238,7 @@
       <Filter>Private\LightmassCore\Math</Filter>
     </ClCompile>
     <Filter Include="Private\LightmassCore\Misc">
-      <UniqueIdentifier>{75800123-58CD-49C0-A219-4A294B194B3F}</UniqueIdentifier>
+      <UniqueIdentifier>{6338C1DA-306A-4CBF-BB03-D8012C1DEAEF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Misc\LMDebug.cpp">
       <Filter>Private\LightmassCore\Misc</Filter>
@@ -259,13 +259,13 @@
       <Filter>Private\LightmassCore\Misc</Filter>
     </ClInclude>
     <Filter Include="Private\LightmassCore\Templates">
-      <UniqueIdentifier>{C1E45C31-A1B8-42EA-BC9C-F1043C1AD52C}</UniqueIdentifier>
+      <UniqueIdentifier>{8B0F4E9E-6B74-4903-9955-07672424BA72}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Private\LightmassCore\Templates\LMQueue.h">
       <Filter>Private\LightmassCore\Templates</Filter>
     </ClInclude>
     <Filter Include="Public">
-      <UniqueIdentifier>{27A69F9A-399B-4317-9253-97761106C840}</UniqueIdentifier>
+      <UniqueIdentifier>{89700AAE-83DD-480F-9D11-7AB6897CBF10}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealLightmass\Public\FluidExport.h">
       <Filter>Public</Filter>

@@ -327,7 +327,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5801383F-2DE6-4605-94D8-A0E20AC41919}</ProjectGuid>
+    <ProjectGuid>{A8D091B3-1529-43C7-B609-4DE24D7F083D}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Classroom</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>

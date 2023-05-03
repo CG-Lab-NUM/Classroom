@@ -91,7 +91,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6E8AB85A-EF05-4F6A-B975-34F15C1D4DBF}</ProjectGuid>
+    <ProjectGuid>{61D992C4-9778-4F10-8DB4-33B0E85656AC}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>BenchmarkTool</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>

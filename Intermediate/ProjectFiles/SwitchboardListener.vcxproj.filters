@@ -5,7 +5,7 @@
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\ReadMe.md" />
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{BB6FAE40-E94B-4CD0-AF04-D5A64D039DE6}</UniqueIdentifier>
+      <UniqueIdentifier>{57C8C36C-E6AD-4572-9FA7-1810CC8F223B}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
       <Filter>Private</Filter>
@@ -47,7 +47,7 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{097AD93A-2B8B-443B-8750-36350FE0D3CA}</UniqueIdentifier>
+      <UniqueIdentifier>{00B10230-7CCE-4B9F-BBF2-99E0FB242B31}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
       <Filter>Private\Windows</Filter>
@@ -56,7 +56,7 @@
       <Filter>Private\Windows</Filter>
     </ClInclude>
     <Filter Include="Private\Windows\Resources">
-      <UniqueIdentifier>{5A8FE09C-F64E-4F9A-840C-E9B2DE1B4010}</UniqueIdentifier>
+      <UniqueIdentifier>{55DCFC49-148B-4305-900B-983E957DEF77}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico">
       <Filter>Private\Windows\Resources</Filter>
@@ -71,7 +71,7 @@
       <Filter>Private\Windows\Resources</Filter>
     </None>
     <Filter Include="Tests">
-      <UniqueIdentifier>{CEBEEB99-357A-4CB5-BA96-B20CB51FB40B}</UniqueIdentifier>
+      <UniqueIdentifier>{16DD52E7-E368-467C-9FCD-FD5BB5B67BE9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py">
       <Filter>Tests</Filter>

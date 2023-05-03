@@ -91,7 +91,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{CB62BE34-EF3D-46D3-A4D1-D42659654F59}</ProjectGuid>
+    <ProjectGuid>{ACFA0596-80AA-48E3-973A-21C392B44F1E}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealRecoverySvc</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>

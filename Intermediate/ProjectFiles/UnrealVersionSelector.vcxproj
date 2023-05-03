@@ -91,7 +91,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{42868806-B51F-48EA-91D6-8B5AD2C2B237}</ProjectGuid>
+    <ProjectGuid>{419EAA1E-9F7C-49DC-A65B-6621068F5A36}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>UnrealVersionSelector</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>

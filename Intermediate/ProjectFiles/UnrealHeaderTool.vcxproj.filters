@@ -3,14 +3,14 @@
   <ItemGroup>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{84439CB0-96F5-423C-A532-6E1C35B3DBFC}</UniqueIdentifier>
+      <UniqueIdentifier>{49B8501A-4CDE-4817-B1E8-8596B84E99AA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{A8A7FF0B-EDC4-424A-B11B-B934B21E03E6}</UniqueIdentifier>
+      <UniqueIdentifier>{DA10FA51-5361-4F38-9169-3EAC4CCE8112}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
       <Filter>Private</Filter>
@@ -127,7 +127,7 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Specifiers">
-      <UniqueIdentifier>{0F7F03FB-4374-497A-ABF8-3DFAE1B19D85}</UniqueIdentifier>
+      <UniqueIdentifier>{1F01F5BA-A403-4276-86ED-8B856D15644A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
       <Filter>Private\Specifiers</Filter>
@@ -175,19 +175,19 @@
       <Filter>Private\Specifiers</Filter>
     </ClInclude>
     <Filter Include="Public">
-      <UniqueIdentifier>{4BE67F02-DC44-4BB5-A466-6D266D159464}</UniqueIdentifier>
+      <UniqueIdentifier>{3159CD5C-A8AC-4F1D-BFD1-8880B7891431}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
       <Filter>Public</Filter>
     </ClInclude>
     <Filter Include="Resources">
-      <UniqueIdentifier>{01AD35BF-8C2A-40B0-A213-64D4C000977A}</UniqueIdentifier>
+      <UniqueIdentifier>{1F42F963-944C-42EB-B195-A7D05BFE90FC}</UniqueIdentifier>
     </Filter>
     <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest">
       <Filter>Resources</Filter>
     </Manifest>
     <Filter Include="Resources\UHTDebugging">
-      <UniqueIdentifier>{CC695778-84D3-450C-AA9A-9876005FB32E}</UniqueIdentifier>
+      <UniqueIdentifier>{CC243649-2206-406E-8725-75697BAB1ED3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\DocumentationObjects.h">
       <Filter>Resources\UHTDebugging</Filter>
