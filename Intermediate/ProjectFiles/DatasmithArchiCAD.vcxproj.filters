@@ -4,11 +4,7 @@
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Target.cs" />
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\DatasmithArchiCAD.Build.cs" />
     <Filter Include="Private">
-<<<<<<< HEAD
-      <UniqueIdentifier>{92C1B103-C496-4F47-9B9C-D882475A20E8}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{2AE2BF6D-1DDA-4000-96C5-3BE230A26028}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{53E2B8C5-E43A-493B-9E10-22EAD9FF95FA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithARCHICADExporter\UBTModules\Private\DatasmithArchiCAD.cpp">
       <Filter>Private</Filter>

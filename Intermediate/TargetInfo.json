@@ -2,29 +2,17 @@
 	"Targets": [
 		{
 			"Name": "Classroom",
-<<<<<<< HEAD
 			"Path": "D:\\Classroom\\Source\\Classroom.Target.cs",
-=======
-			"Path": "D:\\UnrealProjects\\Classroom\\Source\\Classroom.Target.cs",
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
 			"Type": "Game"
 		},
 		{
 			"Name": "ClassroomEditor",
-<<<<<<< HEAD
 			"Path": "D:\\Classroom\\Source\\ClassroomEditor.Target.cs",
-=======
-			"Path": "D:\\UnrealProjects\\Classroom\\Source\\ClassroomEditor.Target.cs",
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
 			"Type": "Editor"
 		},
 		{
 			"Name": "ClassroomServer",
-<<<<<<< HEAD
 			"Path": "D:\\Classroom\\Source\\ClassroomServer.Target.cs",
-=======
-			"Path": "D:\\UnrealProjects\\Classroom\\Source\\ClassroomServer.Target.cs",
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
 			"Type": "Server"
 		}
 	]

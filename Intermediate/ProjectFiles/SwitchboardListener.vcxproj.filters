@@ -5,11 +5,7 @@
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\ReadMe.md" />
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\SwitchboardListener.Build.cs" />
     <Filter Include="Private">
-<<<<<<< HEAD
-      <UniqueIdentifier>{BB110072-A6AD-45F2-97AE-BACB10DFB701}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{BB6FAE40-E94B-4CD0-AF04-D5A64D039DE6}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{C61DB0A0-0739-4144-95E9-BF11A953E078}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\CpuUtilizationMonitor.cpp">
       <Filter>Private</Filter>
@@ -51,11 +47,7 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Windows">
-<<<<<<< HEAD
-      <UniqueIdentifier>{7717CE32-E7F6-4C87-97F9-9CF77873FCAB}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{097AD93A-2B8B-443B-8750-36350FE0D3CA}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{C0AAC8C3-0EA7-404F-AA38-4D84D1EC2930}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\Windows\WindowsCpuUtilizationMonitor.cpp">
       <Filter>Private\Windows</Filter>
@@ -64,11 +56,7 @@
       <Filter>Private\Windows</Filter>
     </ClInclude>
     <Filter Include="Private\Windows\Resources">
-<<<<<<< HEAD
-      <UniqueIdentifier>{8DB38A16-3509-48C6-A1E9-CA5DD144F945}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{5A8FE09C-F64E-4F9A-840C-E9B2DE1B4010}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{3CD8F770-962D-4B04-9B51-292250EE3422}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Private\Windows\Resources\Icon.ico">
       <Filter>Private\Windows\Resources</Filter>
@@ -83,11 +71,7 @@
       <Filter>Private\Windows\Resources</Filter>
     </None>
     <Filter Include="Tests">
-<<<<<<< HEAD
-      <UniqueIdentifier>{7D58C31A-505C-49DA-9907-410FB24F063F}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{CEBEEB99-357A-4CB5-BA96-B20CB51FB40B}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{2C007FB6-1DB7-4361-9830-66E58C6A851C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\SwitchboardListener\Tests\listener_tests.py">
       <Filter>Tests</Filter>

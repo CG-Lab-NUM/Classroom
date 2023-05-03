@@ -91,7 +91,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{BEC41B9C-7177-4594-8C3F-E642F17C108D}</ProjectGuid>
+    <ProjectGuid>{2222E6BC-7E9B-4496-A52A-61F5A9855E4F}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>TextureShareSDK</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
@@ -466,11 +466,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-<<<<<<< HEAD
     <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareSDK;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public\Containers;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
-=======
-    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TextureShareSDK\Inc\TextureShareSDK;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare;D:\UnrealSource\UnrealEngine-4.27\Engine\Plugins\Runtime\TextureShare\Source\TextureShareCore\Public\Containers;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TextureShare\TextureShareSDK\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>

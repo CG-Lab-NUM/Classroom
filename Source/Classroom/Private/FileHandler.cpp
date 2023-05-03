@@ -66,8 +66,8 @@ TArray<FString> AFileHandler::getFoldersInFolder(FString path) {
 	if (platform == "Windows") {
 		IFileManager& fileManager = IFileManager::Get();
 		FString savedDirectory = FPaths::Combine(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()), path);
-		FString extensions = "*";
-		fileManager.FindFiles(arr, *savedDirectory, false, true);
+		FolderVisitor FolderVisitor(arr);
+		fileManager.IterateDirectory(*savedDirectory, FolderVisitor);
 	}
 	return arr;
 }

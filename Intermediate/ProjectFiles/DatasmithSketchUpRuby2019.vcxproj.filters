@@ -8,11 +8,7 @@
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\DatasmithSketchUpRubyExporter.def" />
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\readme.md" />
     <Filter Include="Build">
-<<<<<<< HEAD
-      <UniqueIdentifier>{4B7649D9-0919-47A9-9F80-7BA1DC930C0D}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{78605448-D7BB-45C3-AAF0-33DC71E52A8C}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{EEBB4B4E-A26B-41E4-8264-7852A1336130}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Build\build_mac.py">
       <Filter>Build</Filter>
@@ -27,11 +23,7 @@
       <Filter>Build</Filter>
     </None>
     <Filter Include="Installer">
-<<<<<<< HEAD
-      <UniqueIdentifier>{B8E9968E-44B9-4B18-92F6-61D8B01E98FE}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{0B6BEBDA-A76B-4C59-8576-F5199E867AAD}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{70424369-608B-406F-89B2-EA5FA8EC13EE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\CreateMultilanguageInstaller.bat">
       <Filter>Installer</Filter>
@@ -70,11 +62,7 @@
       <Filter>Installer</Filter>
     </None>
     <Filter Include="Installer\Localization">
-<<<<<<< HEAD
-      <UniqueIdentifier>{027D25B8-AB66-4CB2-A8C7-81E50AAE5606}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{BA62558B-AF09-4B74-B061-9C960AF4BC94}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{710870E9-3582-4C51-85EC-DCD67D943DA6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Localization\de-de.wxl">
       <Filter>Installer\Localization</Filter>
@@ -119,11 +107,7 @@
       <Filter>Installer\Localization</Filter>
     </None>
     <Filter Include="Installer\Mac">
-<<<<<<< HEAD
-      <UniqueIdentifier>{059EE1D0-2208-4727-AC19-74F3E814B6B9}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{39C848D7-2355-4CFA-9204-F66F2E732B97}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{84040645-258B-4195-AD09-45B3CA428371}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Mac\CheckSketchUp.sh">
       <Filter>Installer\Mac</Filter>
@@ -150,11 +134,7 @@
       <Filter>Installer\Mac</Filter>
     </None>
     <Filter Include="Installer\Resources">
-<<<<<<< HEAD
-      <UniqueIdentifier>{A00205DC-522B-4E84-A236-673FD695BD8A}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{2AC1229D-A022-4C22-8449-E73DD77CA04F}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{12AB1121-337C-45FA-9F61-7AF765B44AA5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Banner.bmp">
       <Filter>Installer\Resources</Filter>
@@ -187,21 +167,13 @@
       <Filter>Installer\Resources</Filter>
     </None>
     <Filter Include="Installer\Resources\Images">
-<<<<<<< HEAD
-      <UniqueIdentifier>{DABFCC24-9C98-49DC-8A6D-BEB18C3FA331}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{7D7E41A2-5178-47FA-8661-22E0677E4140}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{02E648B4-F5DA-4D1D-B176-E03A2D774393}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Epic_Games_logo.bmp">
       <Filter>Installer\Resources\Images</Filter>
     </None>
     <Filter Include="Installer\Resources\Images\Background">
-<<<<<<< HEAD
-      <UniqueIdentifier>{3BBDC4B5-F8FE-4099-808F-4EB3EB704D7A}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{2942FBDA-BCF4-4553-A7CA-6C1F764982E4}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{EDCD1E6D-D665-4532-B05B-942FF9BB5770}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\Background\28190.bmp">
       <Filter>Installer\Resources\Images\Background</Filter>
@@ -219,11 +191,7 @@
       <Filter>Installer\Resources\Images\Background</Filter>
     </None>
     <Filter Include="Installer\Resources\Images\General">
-<<<<<<< HEAD
-      <UniqueIdentifier>{0683F541-8C42-47EE-944D-5789C585D7F6}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{26348BC4-1D5A-42F3-859D-02BE55BD2E58}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{8C1B579D-5035-4B85-A683-537EB0943781}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Installer\Resources\Images\General\banner.bmp">
       <Filter>Installer\Resources\Images\General</Filter>
@@ -232,21 +200,13 @@
       <Filter>Installer\Resources\Images\General</Filter>
     </None>
     <Filter Include="Plugin">
-<<<<<<< HEAD
-      <UniqueIdentifier>{306CBFAB-60A0-4626-A3AF-08C260D36BE2}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{4C3174B5-8D6D-439D-91F6-2CF9DBEC1345}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{5EBE8B97-DFB3-4803-82C7-1A1EAA40C6C0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp.rb">
       <Filter>Plugin</Filter>
     </None>
     <Filter Include="Plugin\UnrealDatasmithSketchUp">
-<<<<<<< HEAD
-      <UniqueIdentifier>{DECFB097-508A-407F-8681-5570F516CBBE}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{7A3A6C98-F421-4E52-A7FC-B252B0888306}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{75CEDC44-B51C-4962-A724-2A9F5BB23921}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Plugin\UnrealDatasmithSketchUp\connections_dialog.rb">
       <Filter>Plugin\UnrealDatasmithSketchUp</Filter>
@@ -264,11 +224,7 @@
       <Filter>Plugin\UnrealDatasmithSketchUp</Filter>
     </None>
     <Filter Include="Private">
-<<<<<<< HEAD
-      <UniqueIdentifier>{940A66AD-5C3F-4CB2-8052-2D0DD516FA91}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{F6C9D938-9762-4791-95FA-651F6553F09F}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{A1B43850-4E91-4456-BC7D-56EA1C227875}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Private\DatasmithSketchUpCamera.cpp">
       <Filter>Private</Filter>
@@ -343,17 +299,10 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Resources">
-<<<<<<< HEAD
-      <UniqueIdentifier>{10084937-6121-41D2-BD55-75AC596AD1D1}</UniqueIdentifier>
+      <UniqueIdentifier>{BD8556DA-F032-4D28-BB6D-3CEE234FEFF7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Windows">
-      <UniqueIdentifier>{EB05B6EE-F3DD-4275-805D-67DC5B0D0221}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{454915F6-B3DF-41E0-A0FB-CA1B09989169}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Resources\Windows">
-      <UniqueIdentifier>{918ECFD2-B98B-4396-BE2A-E4F422CCA92F}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{439A4958-7A18-4E5F-ACD1-2D4A348AA841}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\DatasmithAutoSyncIcon16.png">
       <Filter>Resources\Windows</Filter>
@@ -392,81 +341,49 @@
       <Filter>Resources\Windows</Filter>
     </None>
     <Filter Include="Resources\Windows\de">
-<<<<<<< HEAD
-      <UniqueIdentifier>{E7663419-2413-4707-821C-2FF16B7C5EEB}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{E3FF025C-D091-4120-B13C-1D68E240335F}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{16C90733-7305-4F6C-A781-97C27C460CFC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\de\Plugin.strings">
       <Filter>Resources\Windows\de</Filter>
     </None>
     <Filter Include="Resources\Windows\en-US">
-<<<<<<< HEAD
-      <UniqueIdentifier>{4A8DEC79-9102-4A42-9301-2933970D6447}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{1C440532-CCEA-4833-ACCA-1F4A25FB77F2}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{569D9E02-E779-495F-A374-1ECC87131D69}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\en-US\Plugin.strings">
       <Filter>Resources\Windows\en-US</Filter>
     </None>
     <Filter Include="Resources\Windows\es">
-<<<<<<< HEAD
-      <UniqueIdentifier>{540A1246-5877-4855-B239-30CBF26428D2}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{F94222E8-7A7F-449A-B34A-9CC3C0BB4F87}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{80465C84-FE6F-4A9F-B5A4-CF88DD33DFCE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\es\Plugin.strings">
       <Filter>Resources\Windows\es</Filter>
     </None>
     <Filter Include="Resources\Windows\fr">
-<<<<<<< HEAD
-      <UniqueIdentifier>{059147D5-0E8C-4D2D-AC60-1EA7E3C8C02A}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{7864579B-AD93-4AEA-950D-39319B073C56}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{FE139C6A-FC72-4804-92F1-B2BF2D7232CE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\fr\Plugin.strings">
       <Filter>Resources\Windows\fr</Filter>
     </None>
     <Filter Include="Resources\Windows\ja">
-<<<<<<< HEAD
-      <UniqueIdentifier>{BA629184-C215-4B17-9B4F-D941FB882E79}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{900EB34D-B894-426A-8FBF-A3191AD97055}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{889771D3-B5C9-476C-A68E-1212E8C68D73}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\ja\Plugin.strings">
       <Filter>Resources\Windows\ja</Filter>
     </None>
     <Filter Include="Resources\Windows\ko">
-<<<<<<< HEAD
-      <UniqueIdentifier>{FA163316-B1E8-46D1-9F7E-8DED66E6FF2F}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{24D3C2EC-F1F7-4A11-9A2E-F2442A0AA185}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{E9D34098-2374-42AA-BE83-43D0617C8E2C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\ko\Plugin.strings">
       <Filter>Resources\Windows\ko</Filter>
     </None>
     <Filter Include="Resources\Windows\pt-BR">
-<<<<<<< HEAD
-      <UniqueIdentifier>{A0367114-89A2-496E-B8FB-B733D0B589E5}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{0BA65F04-C744-41F7-AE3D-6F22BF9A90DB}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{868DFF38-46F2-4215-B8C7-4D8FED24F3B2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\pt-BR\Plugin.strings">
       <Filter>Resources\Windows\pt-BR</Filter>
     </None>
     <Filter Include="Resources\Windows\zh-CN">
-<<<<<<< HEAD
-      <UniqueIdentifier>{D8DE144E-6875-4870-84CE-5802C663D44B}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{FB1B6AEE-8054-4006-A6AE-8BB73A72370A}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{57E143B2-88C0-4752-A90A-C5E4B7395E28}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithSketchUpRubyExporter\Resources\Windows\zh-CN\Plugin.strings">
       <Filter>Resources\Windows\zh-CN</Filter>

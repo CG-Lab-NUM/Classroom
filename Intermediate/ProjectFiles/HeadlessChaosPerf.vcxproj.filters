@@ -4,21 +4,13 @@
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\HeadlessChaosPerf\HeadlessChaosPerf.Target.cs" />
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\HeadlessChaosPerf\HeadlessChaosPerf.Build.cs" />
     <Filter Include="Private">
-<<<<<<< HEAD
-      <UniqueIdentifier>{53F138EC-F2B0-413D-AFF9-8FC136B1AEAB}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{200BD316-C82F-4C96-A9A2-366995EE1EAB}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{DB89193C-20A6-4938-BB6F-FF41BDD78C44}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\HeadlessChaosPerf\Private\HeadlessChaosPerfApp.cpp">
       <Filter>Private</Filter>
     </ClCompile>
     <Filter Include="Private\ChaosPerf">
-<<<<<<< HEAD
-      <UniqueIdentifier>{D1F9C384-D6FB-43D5-AFE2-57447BBD20C4}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{BBC1DBD0-A262-4767-8C5C-0C3728DADE79}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{E18B9CB2-CD97-467D-B14C-1A58496CD54B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\ChaosPerf.h">
       <Filter>Private\ChaosPerf</Filter>
@@ -33,11 +25,7 @@
       <Filter>Private\ChaosPerf</Filter>
     </ClInclude>
     <Filter Include="Private\ChaosPerf\PerfTests">
-<<<<<<< HEAD
-      <UniqueIdentifier>{3A9F72BD-1527-4FEE-8813-FD040FC3679A}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{01F91484-6818-42DA-9AE4-B7BDF9A70A30}</UniqueIdentifier>
->>>>>>> b9ce7eb7fd1f3ef3e5595dd39553e40ebb8508b1
+      <UniqueIdentifier>{D6048E23-570D-4D93-B5CC-A2E91EBBF7F8}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\HeadlessChaosPerf\Private\ChaosPerf\PerfTests\ChaosPerfProfilerTests.cpp">
       <Filter>Private\ChaosPerf\PerfTests</Filter>
