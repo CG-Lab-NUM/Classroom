@@ -17,6 +17,20 @@ class CLASSROOM_API AFileHandler : public AActor
 public:	
 	AFileHandler();
 
+	struct FolderVisitor : public IPlatformFile::FDirectoryVisitor {
+	public:
+		FolderVisitor(TArray<FString>& InFolderNames) : folderNames(InFolderNames) {}
+
+		virtual bool Visit(const TCHAR* FilenameOrDirectory, bool bIsDirectory) {
+			if (bIsDirectory) {
+				FString FolderName(FilenameOrDirectory);
+				folderNames.Add(FolderName);
+			}
+			return true;
+		}
+		TArray<FString>& folderNames;
+	};
+
 protected:
 	virtual void BeginPlay() override;
 	virtual void Tick(float DeltaTime) override;
