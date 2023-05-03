@@ -91,7 +91,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1BEB5DBC-A0BD-4EBA-8811-F1E47D73A09E}</ProjectGuid>
+    <ProjectGuid>{4D0656E2-10CF-4636-8838-2E90DE0201E3}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>DatasmithRhino7</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
@@ -381,17 +381,13 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-<<<<<<< HEAD
     <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
-=======
-    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino7.Target.cs"/>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\Enterprise\Datasmith\DatasmithRhinoExporter\DatasmithRhino7.Target.cs"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

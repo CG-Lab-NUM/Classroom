@@ -59,7 +59,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EF5ED3E2-D102-4265-9154-E31370BD2652}</ProjectGuid>
+    <ProjectGuid>{5A034385-3932-41B2-A5FE-BB08EF4BB3B3}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>CrashReportClientEditor</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
@@ -249,17 +249,13 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-<<<<<<< HEAD
     <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
-=======
-    <IncludePath>$(IncludePath);C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Target.cs"/>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\CrashReportClient\CrashReportClientEditor.Target.cs"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>

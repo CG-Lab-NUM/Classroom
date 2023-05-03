@@ -1,111 +1,84 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Target.cs" />
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\UnrealCEFSubProcess.Build.cs" />
     <Filter Include="Private">
-<<<<<<< HEAD
-      <UniqueIdentifier>{734FBA31-323F-4972-8547-027B9FE7814C}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{6483CA5B-9F42-45BE-B430-200FDCA2D816}</UniqueIdentifier>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
+      <UniqueIdentifier>{24A00103-1BF5-48EB-A304-BB942249F49A}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcess.h">
       <Filter>Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessApp.h">
       <Filter>Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessCallbackRegistry.h">
       <Filter>Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteMethodHandler.h">
       <Filter>Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\UnrealCEFSubProcessRemoteScripting.h">
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\Linux">
-<<<<<<< HEAD
-      <UniqueIdentifier>{BE2E9E8C-1D5F-4E71-82FF-DCD365D1DD41}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{6369697C-1940-4FE1-9F83-9792EAAD80E2}</UniqueIdentifier>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
+      <UniqueIdentifier>{B8FD61CB-DE35-4263-8E4F-98EF0106CD21}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Linux\UnrealCEFSubProcessLinux.cpp">
       <Filter>Private\Linux</Filter>
     </ClCompile>
     <Filter Include="Private\Mac">
-<<<<<<< HEAD
-      <UniqueIdentifier>{07A9D1AB-4B51-43FC-B07F-8EAC51060853}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{BE1C0A34-3B1C-4B97-BC4C-79075562FDB7}</UniqueIdentifier>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
+      <UniqueIdentifier>{60AA4512-EA96-4F4B-8E14-BB15E1C105FD}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Mac\UnrealCEFSubProcessMac.cpp">
       <Filter>Private\Mac</Filter>
     </ClCompile>
     <Filter Include="Private\Windows">
-<<<<<<< HEAD
-      <UniqueIdentifier>{F7BF9431-B9D4-4AF7-BD09-1595466E8698}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{1A3981D0-394E-4B7F-927E-87C2B0B7500C}</UniqueIdentifier>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
+      <UniqueIdentifier>{9BC004AE-BD2D-47CD-8E40-019987189E7F}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Private\Windows\UnrealCEFSubProcessWindows.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
     <Filter Include="Resources">
-<<<<<<< HEAD
-      <UniqueIdentifier>{CB1D7B1E-EF7F-498B-8192-711C9CEBF564}</UniqueIdentifier>
+      <UniqueIdentifier>{95371997-3AC5-4304-B7A5-8B4905E4ED21}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Mac">
-      <UniqueIdentifier>{B4715285-8AC5-4094-BB9F-A386C37E9B3E}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{EA389052-8727-42F4-A7E0-57C1C997C073}</UniqueIdentifier>
+      <UniqueIdentifier>{C917CE81-95E2-4EA8-A046-0BD44B1EEE9C}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resources\Mac">
-      <UniqueIdentifier>{03FE2362-0C96-47D4-9500-B73B51163168}</UniqueIdentifier>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
-    </Filter>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Mac\Info.plist">
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Mac\Info.plist">
       <Filter>Resources\Mac</Filter>
     </None>
     <Filter Include="Resources\Windows">
-<<<<<<< HEAD
-      <UniqueIdentifier>{FDA022D4-E55F-40EE-A6AC-3C3BA2B98C44}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{3725F442-CF25-41B0-8608-BA3AF2663073}</UniqueIdentifier>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
+      <UniqueIdentifier>{02BBD8B1-7083-4370-9F52-99E96D409409}</UniqueIdentifier>
     </Filter>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest">
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win32.manifest">
       <Filter>Resources\Windows</Filter>
     </Manifest>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win64.manifest">
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\Debug-UnrealCEFSubProcess-Win64.manifest">
       <Filter>Resources\Windows</Filter>
     </Manifest>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win32.manifest">
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win32.manifest">
       <Filter>Resources\Windows</Filter>
     </Manifest>
-    <Manifest Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win64.manifest">
+    <Manifest Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess-Win64.manifest">
       <Filter>Resources\Windows</Filter>
     </Manifest>
-    <ResourceCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess.rc">
+    <ResourceCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealCEFSubProcess\Resources\Windows\UnrealCEFSubProcess.rc">
       <Filter>Resources\Windows</Filter>
     </ResourceCompile>
   </ItemGroup>

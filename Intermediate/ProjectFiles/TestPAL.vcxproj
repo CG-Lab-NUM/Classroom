@@ -91,7 +91,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6DAEA856-F621-4232-87B4-3028E9DC00CE}</ProjectGuid>
+    <ProjectGuid>{5149CD92-8A8D-4AC8-AF77-3750C9F828E1}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>TestPAL</RootNamespace>
     <PlatformToolset>v143</PlatformToolset>
@@ -466,36 +466,32 @@
   </PropertyGroup>
   <PropertyGroup>
     <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
-<<<<<<< HEAD
     <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\ApplicationCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\ApplicationCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\RHI;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\RHI\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\Projects;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Projects\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\Json;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Json\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\DirectoryWatcher;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Developer;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Developer\DirectoryWatcher\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\TestPAL;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\winrt;;</IncludePath>
-=======
-    <IncludePath>$(IncludePath);D:\UnrealSource\UnrealEngine-4.27\Engine\Source;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\Core;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\TraceLog\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Core\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\TraceLog;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\ApplicationCore;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\ApplicationCore\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\RHI;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\RHI\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\Projects;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Projects\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\Json;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Json\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\DirectoryWatcher;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Developer;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Developer\DirectoryWatcher\Public;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Inc\TestPAL;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs;D:\UnrealSource\UnrealEngine-4.27\Engine\Source\Runtime\Launch\Public;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\INCLUDE;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt;;</IncludePath>
->>>>>>> c903f6265847a00cccc378429e91af8b5bd2e685
     <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
     <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\TestPAL.Target.cs"/>
-    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\TestPAL.Build.cs"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\Main.cpp">
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\TestPAL.Target.cs"/>
+    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\TestPAL.Build.cs"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\Main.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\TestPAL\Definitions.TestPAL.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\Parent.cpp">
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\Parent.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\TestPAL\Definitions.TestPAL.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\Parent.h"/>
-    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.cpp">
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\Parent.h"/>
+    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h;D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\TestPAL\Definitions.TestPAL.h</ForcedIncludeFiles>
       <AdditionalOptions>/Yu"D:\UnrealSource\UnrealEngine-4.27\Engine\Intermediate\Build\Win64\TestPAL\Development\Core\SharedPCH.Core.ShadowErrors.h"</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.h"/>
-    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\TestPALLog.h"/>
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\TestDirectoryWatcher.h"/>
+    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\TestPAL\Private\TestPALLog.h"/>
   </ItemGroup>
   <ItemDefinitionGroup>
   </ItemDefinitionGroup>
