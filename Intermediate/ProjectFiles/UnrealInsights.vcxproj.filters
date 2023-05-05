@@ -3,14 +3,14 @@
   <ItemGroup>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\UnrealInsights.Target.cs" />
     <Filter Include="Config">
-      <UniqueIdentifier>{18672FF1-5B3A-484C-B761-E09371CED94E}</UniqueIdentifier>
+      <UniqueIdentifier>{C6DAD765-E4AF-4C21-B9A5-537744F233FE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Programs\UnrealInsights\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\UnrealInsights.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{3E74DC7D-7DAC-49A4-877A-6D10F2833096}</UniqueIdentifier>
+      <UniqueIdentifier>{72E4E517-8AB7-41D2-B925-345BC994D9FE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\Private\UnrealInsightsMain.cpp">
       <Filter>Private</Filter>
@@ -25,34 +25,34 @@
       <Filter>Private</Filter>
     </ClInclude>
     <Filter Include="Private\IOS">
-      <UniqueIdentifier>{03943015-FBAD-4581-8442-1B7FF9B1F029}</UniqueIdentifier>
+      <UniqueIdentifier>{323A9D79-60B8-460D-8642-DC309D22D07C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\Private\IOS\IOSUnrealInsightsMain.cpp">
       <Filter>Private\IOS</Filter>
     </ClCompile>
     <Filter Include="Private\Linux">
-      <UniqueIdentifier>{7C2002CE-DDC9-4D8F-85A6-AF9F64BC74B7}</UniqueIdentifier>
+      <UniqueIdentifier>{DD77EE55-4510-4BD1-AC13-585DE9E768C2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\Private\Linux\LinuxUnrealInsightsMain.cpp">
       <Filter>Private\Linux</Filter>
     </ClCompile>
     <Filter Include="Private\Mac">
-      <UniqueIdentifier>{988C672F-D6DF-401D-BF38-D6A9548CC027}</UniqueIdentifier>
+      <UniqueIdentifier>{5D97C4BA-F564-4DE7-A459-08EC3DB831E7}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\Private\Mac\MacUnrealInsightsMain.cpp">
       <Filter>Private\Mac</Filter>
     </ClCompile>
     <Filter Include="Private\Windows">
-      <UniqueIdentifier>{6B97BCA8-3F76-42B4-B9D2-3DBDB6327EBB}</UniqueIdentifier>
+      <UniqueIdentifier>{61DA9A0F-653A-457B-BE01-650FC4451EA4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\Private\Windows\WindowsUnrealInsightsMain.cpp">
       <Filter>Private\Windows</Filter>
     </ClCompile>
     <Filter Include="Resources">
-      <UniqueIdentifier>{5274502F-2B48-4354-A413-DBAAB7EAB12A}</UniqueIdentifier>
+      <UniqueIdentifier>{353C59A6-2F68-47E1-A7FC-29EFCD5135D9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resources\Mac">
-      <UniqueIdentifier>{2923E945-CA68-4616-99D4-DB219DBC142E}</UniqueIdentifier>
+      <UniqueIdentifier>{BAC3C4FA-F051-4DA0-B5BF-3D988BD563E8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\UnrealInsights\Resources\Mac\Info.plist">
       <Filter>Resources\Mac</Filter>
