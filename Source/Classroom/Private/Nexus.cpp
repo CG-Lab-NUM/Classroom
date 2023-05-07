@@ -33,14 +33,21 @@ void ANexus::addNexus(int numVertices, int sphereRadius, float scale, UStaticMes
 		float theta = i * dTheta;
 		for (int j = 0; j < numVertices; j++) {
 			float phi = j * dPhi;
-			FVector basePosition = GetActorLocation();
 			FVector vertexPosition = FVector(
 				sphereRadius * sin(phi) * cos(theta),
 				sphereRadius * sin(phi) * sin(theta),
 				sphereRadius * cos(phi)
 			);
-			FVector finalPosition = basePosition + vertexPosition;
-			vertexMesh->AddInstance(FTransform(FRotator(), vertexPosition, FVector(scale)));
+			vertexMesh->AddInstance(FTransform(FRotator(), vertexPosition, FVector(scale * 1)));
+			if (j % 1 == 0) {
+				float extraPhi = (j + 0.5) * dPhi;
+				FVector extraPosition = FVector(
+					sphereRadius * sin(phi) * cos(theta * 1.5),
+					sphereRadius * sin(phi) * sin(theta * 1.5),
+					sphereRadius * cos(phi) + sphereRadius / numVertices
+				);
+				vertexMesh->AddInstance(FTransform(FRotator(), extraPosition, FVector(scale)));
+			}
 		}
 	}
 }
