@@ -60,6 +60,33 @@ TArray<FString> AFileHandler::getFilesInFolder(FString path) {
 	return arr;
 }
 
+
+void RemoveStringsNotContainingSubstring(TArray<FString>& StringArray, const FString& Substring) {
+	StringArray.FilterByPredicate([&Substring](const FString& String) {
+		return String.Contains(Substring);
+	});
+}
+
+TArray<FString> AFileHandler::getAssetList() {
+	FString platform = getPlatform();
+	TArray<FString> arr;
+	if (platform == "Windows") {
+		IPlatformFile& PlatformFile = FPlatformFileManager::Get().GetPlatformFile();
+		FString DirectoryPath = FPaths::Combine(FPaths::ProjectSavedDir(), TEXT("Assets"));
+		UE_LOG(LogTemp, Warning, TEXT("Directory: %s"), *DirectoryPath);
+		PlatformFile.IterateDirectoryRecursively(*DirectoryPath, [&](const TCHAR* FilenameOrDirectory, bool bIsDirectory) -> bool {
+			if (!bIsDirectory) {
+				FString relativePath = FilenameOrDirectory;
+				FPaths::MakePathRelativeTo(relativePath, *DirectoryPath);
+				arr.Add(relativePath);
+			}
+		return true;
+		});
+	}
+	return arr;
+}
+
+
 TArray<FString> AFileHandler::getFoldersInFolder(FString path) {
 	FString platform = getPlatform();
 	TArray<FString> arr;
