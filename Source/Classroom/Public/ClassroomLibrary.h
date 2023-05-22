@@ -16,5 +16,4 @@ class CLASSROOM_API UClassroomLibrary : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintCallable, Category = "Interpreter")
 	static void classForLoop(int initial, int final, int iter, FForLoopDelegate execute);
-
 };
