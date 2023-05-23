@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Target.cs" />
-    <None Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Build.cs" />
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Target.cs" />
+    <None Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\LiveCodingConsole.Build.cs" />
     <Filter Include="Private">
-      <UniqueIdentifier>{CC94E4C7-0A11-4F88-8A59-4FA9B4BE22D7}</UniqueIdentifier>
+      <UniqueIdentifier>{D320401D-5471-4981-9D9F-D08425BF9209}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.h">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsole.h">
       <Filter>Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.h">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingConsoleStyle.h">
       <Filter>Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.h">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\LiveCodingManifest.h">
       <Filter>Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.cpp">
+    <ClCompile Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.cpp">
       <Filter>Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.h">
+    <ClInclude Include="..\..\..\UnrealSource\UnrealEngine-4.27\Engine\Source\Programs\LiveCodingConsole\Private\SLogWidget.h">
       <Filter>Private</Filter>
     </ClInclude>
   </ItemGroup>

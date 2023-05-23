@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Classroom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E98FAA61-56EA-4A83-AF25-29D9AABA126C}</UniqueIdentifier>
+      <UniqueIdentifier>{C87097D2-1141-476D-A41F-62D71CB95C6F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Classroom.Target.cs">
       <Filter>Source</Filter>
@@ -17,7 +17,7 @@
     <None Include="..\..\.gitignore" />
     <None Include="..\..\README.md" />
     <Filter Include="Config">
-      <UniqueIdentifier>{AEC7256B-1A2E-4F65-902E-2F8416ED922E}</UniqueIdentifier>
+      <UniqueIdentifier>{219ACDF7-D94D-4315-8578-5CA58A3F85EF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,397 +35,397 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{9E9E4F06-E322-4A58-BA49-A1F8A3A53D34}</UniqueIdentifier>
+      <UniqueIdentifier>{AAB46837-C910-4747-BA31-6677FFBEFA83}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Plugins\PlayFab">
-      <UniqueIdentifier>{99D6B1A3-56B9-4D23-B5BE-1573B1565BD5}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK">
+      <UniqueIdentifier>{7B1BA1EE-A5D8-438A-B4B8-95B3ADBDDE01}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Plugins\PlayFab\Source">
-      <UniqueIdentifier>{34176CB6-69AA-442A-88CD-B5CD5789D638}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source">
+      <UniqueIdentifier>{D71373AB-22E2-4398-B166-FC8A16DDBDC5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Plugins\PlayFab\Source\PlayFab">
-      <UniqueIdentifier>{6C9DF23F-7367-4279-87AC-F81D7BD9B7A2}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFab">
+      <UniqueIdentifier>{E9721220-1DC4-4472-B043-6DF7CBFDACC7}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Plugins\PlayFab\Source\PlayFab\PlayFab.Build.cs">
-      <Filter>Plugins\PlayFab\Source\PlayFab</Filter>
+    <None Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\PlayFab.Build.cs">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab</Filter>
     </None>
-    <Filter Include="Plugins\PlayFab\Source\PlayFab\Classes">
-      <UniqueIdentifier>{CF1ECCBE-FDE8-42A3-A8AB-D1BE44199489}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFab\Classes">
+      <UniqueIdentifier>{AFBD36FA-A41D-481F-A899-B8659678790B}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabAdminAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabAdminAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabAdminModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabAdminModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabAdminModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabAdminModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabAuthenticationAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabAuthenticationAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabAuthenticationModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabAuthenticationModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabAuthenticationModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabAuthenticationModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabBaseModel.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabBaseModel.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabClientAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabClientAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabClientModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabClientModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabClientModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabClientModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabCloudScriptAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabCloudScriptAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabCloudScriptModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabCloudScriptModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabCloudScriptModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabCloudScriptModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabDataAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabDataAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabDataModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabDataModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabEconomyAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabEconomyAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabEconomyModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabEconomyModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabEconomyModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabEconomyModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabEnums.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabEnums.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabEventsAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabEventsAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabEventsModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabEventsModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabEventsModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabEventsModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabExperimentationAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabExperimentationAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabExperimentationModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabExperimentationModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabExperimentationModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabExperimentationModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabGroupsAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabGroupsAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabGroupsModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabGroupsModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabGroupsModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabGroupsModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabInsightsAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabInsightsAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabInsightsModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabInsightsModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabInsightsModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabInsightsModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabJsonObject.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabJsonObject.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabJsonValue.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabJsonValue.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabLocalizationAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabLocalizationAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabLocalizationModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabLocalizationModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabLocalizationModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabLocalizationModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabLoginResultCommon.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabLoginResultCommon.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabMatchmakerAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabMatchmakerAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabMatchmakerModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabMatchmakerModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabMatchmakerModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabMatchmakerModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabMultiplayerAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabMultiplayerAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabMultiplayerModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabMultiplayerModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabMultiplayerModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabMultiplayerModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabProfilesAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabProfilesAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabProfilesModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabProfilesModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabProfilesModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabProfilesModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabRequestCommon.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabRequestCommon.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabResultCommon.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabResultCommon.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabServerAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabServerAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabServerModelDecoder.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabServerModelDecoder.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabServerModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabServerModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Classes\PlayFabUtilities.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Classes</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Classes\PlayFabUtilities.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Classes</Filter>
     </ClInclude>
-    <Filter Include="Plugins\PlayFab\Source\PlayFab\Private">
-      <UniqueIdentifier>{2195AFF9-20D8-4622-B477-6AA2C8C82E7E}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFab\Private">
+      <UniqueIdentifier>{B3D468E1-193C-4BDA-A0CD-0C26CB1D3D8C}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFab.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFab.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabAdminAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabAdminAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabAdminModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabAdminModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabAdminModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabAdminModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabAuthenticationAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabAuthenticationAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabAuthenticationModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabAuthenticationModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabAuthenticationModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabAuthenticationModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabBaseModel.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabBaseModel.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabClientAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabClientAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabClientModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabClientModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabClientModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabClientModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabCloudScriptAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabCloudScriptAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabCloudScriptModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabCloudScriptModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabCloudScriptModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabCloudScriptModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabDataAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabDataAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabDataModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabDataModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabEconomyAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabEconomyAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabEconomyModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabEconomyModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabEconomyModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabEconomyModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabEventsAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabEventsAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabEventsModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabEventsModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabEventsModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabEventsModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabExperimentationAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabExperimentationAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabExperimentationModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabExperimentationModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabExperimentationModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabExperimentationModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabGroupsAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabGroupsAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabGroupsModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabGroupsModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabGroupsModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabGroupsModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabInsightsAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabInsightsAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabInsightsModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabInsightsModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabInsightsModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabInsightsModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabJsonObject.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabJsonObject.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabJsonValue.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabJsonValue.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabLocalizationAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabLocalizationAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabLocalizationModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabLocalizationModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabLocalizationModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabLocalizationModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabMatchmakerAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabMatchmakerAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabMatchmakerModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabMatchmakerModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabMatchmakerModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabMatchmakerModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabMultiplayerAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabMultiplayerAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabMultiplayerModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabMultiplayerModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabMultiplayerModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabMultiplayerModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabPrivate.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabPrivate.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabProfilesAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabProfilesAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabProfilesModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabProfilesModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabProfilesModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabProfilesModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabServerAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabServerAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabServerModelDecoder.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabServerModelDecoder.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabServerModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabServerModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFab\Private\PlayFabUtilities.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Private\PlayFabUtilities.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Private</Filter>
     </ClCompile>
-    <Filter Include="Plugins\PlayFab\Source\PlayFab\Public">
-      <UniqueIdentifier>{5A85AB5E-23BD-4EEB-806B-63027A295E89}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFab\Public">
+      <UniqueIdentifier>{53FBDED0-BA9A-4C8F-84D1-79BE9E46541A}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFab\Public\IPlayFab.h">
-      <Filter>Plugins\PlayFab\Source\PlayFab\Public</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFab\Public\IPlayFab.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFab\Public</Filter>
     </ClInclude>
-    <None Include="..\..\Plugins\PlayFab\PlayFab.uplugin">
-      <Filter>Plugins\PlayFab</Filter>
+    <None Include="..\..\Plugins\PlayFabSDK\PlayFab.uplugin">
+      <Filter>Plugins\PlayFabSDK</Filter>
     </None>
-    <Filter Include="Plugins\PlayFab\Resources">
-      <UniqueIdentifier>{36609B42-AFBD-4FAF-895A-AD43132A051B}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Resources">
+      <UniqueIdentifier>{DC430D05-404F-4019-A872-F0717264735A}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Plugins\PlayFab\Resources\Icon128.png">
-      <Filter>Plugins\PlayFab\Resources</Filter>
+    <None Include="..\..\Plugins\PlayFabSDK\Resources\Icon128.png">
+      <Filter>Plugins\PlayFabSDK\Resources</Filter>
     </None>
     <Filter Include="Plugins\RealTimeImport">
-      <UniqueIdentifier>{2F100C22-3235-425C-9ADF-8A492ECD92CA}</UniqueIdentifier>
+      <UniqueIdentifier>{706598A8-1909-4BDD-A4B9-22C674177694}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RealTimeImport\RealTimeImport.uplugin">
       <Filter>Plugins\RealTimeImport</Filter>
     </None>
     <Filter Include="Plugins\RealTimeImport\Resources">
-      <UniqueIdentifier>{44B33290-237F-47B7-B105-3535FF5C30B1}</UniqueIdentifier>
+      <UniqueIdentifier>{9195F4AA-BE14-4D30-8377-2ABCBE46BBE4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RealTimeImport\Resources\Icon128.png">
       <Filter>Plugins\RealTimeImport\Resources</Filter>
     </None>
     <Filter Include="Plugins\RuntimeFilesDownloader">
-      <UniqueIdentifier>{40022A9D-2A37-4934-87EB-A85D0E36EF54}</UniqueIdentifier>
+      <UniqueIdentifier>{596C788F-F6F6-4824-9DC6-F1B9FCD59CDE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RuntimeFilesDownloader\RuntimeFilesDownloader.uplugin">
       <Filter>Plugins\RuntimeFilesDownloader</Filter>
     </None>
     <Filter Include="Plugins\RuntimeFilesDownloader\Resources">
-      <UniqueIdentifier>{5D31156A-8E49-4224-A026-FB9F236716D6}</UniqueIdentifier>
+      <UniqueIdentifier>{A7A59C4C-D6BA-402B-BB98-9C8F2E1BBAF6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RuntimeFilesDownloader\Resources\Icon128.png">
       <Filter>Plugins\RuntimeFilesDownloader\Resources</Filter>
     </None>
     <Filter Include="Plugins\UniversalVoiceChatPro">
-      <UniqueIdentifier>{20B131BF-B367-4508-9F69-6E6E942344B9}</UniqueIdentifier>
+      <UniqueIdentifier>{2EDFBEA4-29C3-4B4D-ACD5-F742FCC703A9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\UniversalVoiceChatPro\UniversalVoiceChatPro.uplugin">
       <Filter>Plugins\UniversalVoiceChatPro</Filter>
     </None>
     <Filter Include="Plugins\UniversalVoiceChatPro\Resources">
-      <UniqueIdentifier>{37F732BC-7EF9-479B-A499-11361D7EA07A}</UniqueIdentifier>
+      <UniqueIdentifier>{E1F17B6D-473B-4F16-AAA9-D7C54E55FCA5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\UniversalVoiceChatPro\Resources\Icon128.png">
       <Filter>Plugins\UniversalVoiceChatPro\Resources</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin">
-      <UniqueIdentifier>{6B252826-C417-413E-BA92-1A4B840715B7}</UniqueIdentifier>
+      <UniqueIdentifier>{D4E3FE08-0016-4318-84BE-2C12BE9DFB0A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\VaRest.uplugin">
       <Filter>Plugins\VaRestPlugin</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Config">
-      <UniqueIdentifier>{2ECA8937-20A2-45B9-B9F2-061DCD994623}</UniqueIdentifier>
+      <UniqueIdentifier>{10E9F552-F307-4DEA-A7E6-84A24801B743}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Config\BaseVaRest.ini">
       <Filter>Plugins\VaRestPlugin\Config</Filter>
@@ -434,385 +434,385 @@
       <Filter>Plugins\VaRestPlugin\Config</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Resources">
-      <UniqueIdentifier>{0F3D2D9E-C05F-4412-81EC-5A5C690A6CFD}</UniqueIdentifier>
+      <UniqueIdentifier>{31D03A6E-2E01-4385-B49A-F15F855E4B4C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Resources\Icon128.png">
       <Filter>Plugins\VaRestPlugin\Resources</Filter>
     </None>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCommon">
-      <UniqueIdentifier>{C2F63F10-C16D-4F08-A097-D03B1E6A321D}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCommon">
+      <UniqueIdentifier>{F1D7A607-D458-45A0-9649-3C62678D8786}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\PlayFabCommon.Build.cs">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon</Filter>
+    <None Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\PlayFabCommon.Build.cs">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon</Filter>
     </None>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCommon\Private">
-      <UniqueIdentifier>{EF2A7D3A-A521-444B-AD3E-EF678398D1C8}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCommon\Private">
+      <UniqueIdentifier>{970DE777-EC9A-43C0-AE68-733A27004629}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Private\PlayFabCommmonUtils.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Private\PlayFabCommmonUtils.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Private\PlayFabCommon.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Private\PlayFabCommon.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Private\PlayFabCommonSettings.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Private\PlayFabCommonSettings.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Private\PlayFabRuntimeSettings.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Private\PlayFabRuntimeSettings.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Private</Filter>
     </ClCompile>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCommon\Public">
-      <UniqueIdentifier>{9D202A6F-64BF-41DE-9952-A5D8C82D0BC1}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCommon\Public">
+      <UniqueIdentifier>{2FE463B5-1891-47E8-BE62-72FBBBB128F7}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Public\PlayFabAuthenticationContext.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Public</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Public\PlayFabAuthenticationContext.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Public\PlayFabCommon.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Public</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Public\PlayFabCommon.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonSettings.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Public</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Public\PlayFabCommonSettings.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Public\PlayFabCommonUtils.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Public</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Public\PlayFabCommonUtils.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCommon\Public\PlayFabRuntimeSettings.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCommon\Public</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCommon\Public\PlayFabRuntimeSettings.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCommon\Public</Filter>
     </ClInclude>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCpp">
-      <UniqueIdentifier>{ED11661E-791D-4B77-930F-9E9A012C0BC8}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCpp">
+      <UniqueIdentifier>{62603F61-2A4E-4526-BE96-D6E35007031F}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\PlayFabCpp.Build.cs">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp</Filter>
+    <None Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\PlayFabCpp.Build.cs">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp</Filter>
     </None>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Private">
-      <UniqueIdentifier>{4B63EFD1-2EF6-4E8A-BCD2-F80786145C29}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCpp\Private">
+      <UniqueIdentifier>{E49C6551-D830-43B2-A62A-E813EF102A57}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\PlayFab.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\PlayFab.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private</Filter>
     </ClCompile>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Private\Core">
-      <UniqueIdentifier>{0BB841CA-0C0B-4A04-9E20-F322A8183026}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core">
+      <UniqueIdentifier>{C98DBD3A-2688-4E75-B947-4FDCA9D6535E}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabAdminAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabAdminAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabAdminDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabAdminDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabAdminInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabAdminInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabAuthenticationAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabAuthenticationAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabAuthenticationDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabAuthenticationDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabAuthenticationInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabAuthenticationInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabClientAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabClientAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabClientDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabClientDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabClientInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabClientInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabCloudScriptAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabCloudScriptAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabCloudScriptDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabCloudScriptDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabCloudScriptInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabCloudScriptInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabCppBaseModel.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabCppBaseModel.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabDataAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabDataAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabDataDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabDataDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabDataInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabDataInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabEconomyAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabEconomyAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabEconomyDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabEconomyDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabEconomyInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabEconomyInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabEventsAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabEventsAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabEventsDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabEventsDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabEventsInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabEventsInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabExperimentationAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabExperimentationAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabExperimentationDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabExperimentationDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabExperimentationInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabExperimentationInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabGroupsAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabGroupsAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabGroupsDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabGroupsDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabGroupsInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabGroupsInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabInsightsAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabInsightsAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabInsightsDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabInsightsDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabInsightsInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabInsightsInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabJsonHelpers.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabJsonHelpers.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabLocalizationAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabLocalizationAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabLocalizationDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabLocalizationDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabLocalizationInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabLocalizationInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabMatchmakerAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabMatchmakerAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabMatchmakerDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabMatchmakerDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabMatchmakerInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabMatchmakerInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabMultiplayerAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabMultiplayerAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabMultiplayerDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabMultiplayerDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabMultiplayerInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabMultiplayerInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabProfilesAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabProfilesAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabProfilesDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabProfilesDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabProfilesInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabProfilesInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabResultHandler.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabResultHandler.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabServerAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabServerAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabServerDataModels.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabServerDataModels.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabServerInstanceAPI.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabServerInstanceAPI.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Private\Core\PlayFabSettings.cpp">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Private\Core</Filter>
+    <ClCompile Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core\PlayFabSettings.cpp">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Private\Core</Filter>
     </ClCompile>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Public">
-      <UniqueIdentifier>{C526387D-1F4A-4071-BA1A-6BA64874CDCB}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCpp\Public">
+      <UniqueIdentifier>{93BA88BA-E1A3-4C03-8339-12DCFE283B2F}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\PlayFab.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\PlayFab.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public</Filter>
     </ClInclude>
-    <Filter Include="Plugins\PlayFab\Source\PlayFabCpp\Public\Core">
-      <UniqueIdentifier>{AAC7C073-1623-4FFD-87A0-83215F9DF7F8}</UniqueIdentifier>
+    <Filter Include="Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core">
+      <UniqueIdentifier>{57900975-2C84-4DAB-A1AA-05C48F9BFF29}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAdminAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabAdminAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAdminDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabAdminDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAdminInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabAdminInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAPISettings.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabAPISettings.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAuthenticationAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabAuthenticationAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAuthenticationDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabAuthenticationDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabAuthenticationInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabAuthenticationInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabClientAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabClientAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabClientDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabClientDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabClientInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabClientInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabCloudScriptAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabCloudScriptAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabCloudScriptDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabCloudScriptDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabCloudScriptInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabCloudScriptInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabCppBaseModel.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabCppBaseModel.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabDataAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabDataAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabDataDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabDataDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabDataInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabDataInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabEconomyAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabEconomyAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabEconomyDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabEconomyDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabEconomyInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabEconomyInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabError.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabError.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabEventsAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabEventsAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabEventsDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabEventsDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabEventsInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabEventsInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabExperimentationAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabExperimentationAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabExperimentationDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabExperimentationDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabExperimentationInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabExperimentationInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabGroupsAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabGroupsAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabGroupsDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabGroupsDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabGroupsInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabGroupsInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabInsightsAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabInsightsAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabInsightsDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabInsightsDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabInsightsInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabInsightsInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabJsonHelpers.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabJsonHelpers.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabLocalizationAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabLocalizationAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabLocalizationDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabLocalizationDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabLocalizationInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabLocalizationInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabMatchmakerAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabMatchmakerAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabMatchmakerDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabMatchmakerDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabMatchmakerInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabMatchmakerInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabMultiplayerAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabMultiplayerAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabMultiplayerDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabMultiplayerDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabMultiplayerInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabMultiplayerInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabProfilesAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabProfilesAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabProfilesDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabProfilesDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabProfilesInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabProfilesInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabResultHandler.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabResultHandler.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabServerAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabServerAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabServerDataModels.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabServerDataModels.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabServerInstanceAPI.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabServerInstanceAPI.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\PlayFab\Source\PlayFabCpp\Public\Core\PlayFabSettings.h">
-      <Filter>Plugins\PlayFab\Source\PlayFabCpp\Public\Core</Filter>
+    <ClInclude Include="..\..\Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core\PlayFabSettings.h">
+      <Filter>Plugins\PlayFabSDK\Source\PlayFabCpp\Public\Core</Filter>
     </ClInclude>
     <Filter Include="Plugins\RealTimeImport\Source">
-      <UniqueIdentifier>{7A0FF8FB-2D7A-4781-9D68-C85F3603A543}</UniqueIdentifier>
+      <UniqueIdentifier>{B575D2DF-EE73-47A4-A7D4-4B02C0EE8FAD}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\RealTimeImport\Source\RealTimeImport">
-      <UniqueIdentifier>{079761EA-9D21-4E71-AC31-EAD002F75477}</UniqueIdentifier>
+      <UniqueIdentifier>{658CB6E4-EC26-44EB-8FEB-7703C458CB36}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RealTimeImport\Source\RealTimeImport\RealTimeImport.Build.cs">
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport</Filter>
     </None>
     <Filter Include="Plugins\RealTimeImport\Source\RealTimeImport\Private">
-      <UniqueIdentifier>{8A5207A0-8565-4D04-BC5B-20C63CFFCABE}</UniqueIdentifier>
+      <UniqueIdentifier>{3378F55D-E72C-44F6-B501-098694DDF179}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\RealTimeImport\Source\RealTimeImport\Private\FileFunctionsRealTimeImport.cpp">
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Private</Filter>
@@ -848,7 +848,7 @@
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\RealTimeImport\Source\RealTimeImport\Public">
-      <UniqueIdentifier>{5E514493-E18F-45E4-9214-2D3B7BD41512}</UniqueIdentifier>
+      <UniqueIdentifier>{F14ACE18-79FC-408B-8144-C540787D67B1}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\RealTimeImport\Source\RealTimeImport\Public\FileFunctionsRealTimeImport.h">
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Public</Filter>
@@ -884,16 +884,16 @@
       <Filter>Plugins\RealTimeImport\Source\RealTimeImport\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source">
-      <UniqueIdentifier>{E4FFE1D8-528B-47EF-BE41-1142F24052A9}</UniqueIdentifier>
+      <UniqueIdentifier>{AF0C972C-0088-4CCD-8746-45883B3A094A}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader">
-      <UniqueIdentifier>{76FDACD2-37AF-419D-B11A-3A0987B70774}</UniqueIdentifier>
+      <UniqueIdentifier>{A5526371-7038-4D6B-9EB6-FE9F6A1EEEC1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\RuntimeFilesDownloader.Build.cs">
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader</Filter>
     </None>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private">
-      <UniqueIdentifier>{591BE644-38C4-4C5F-9244-9FA049DD0EB7}</UniqueIdentifier>
+      <UniqueIdentifier>{F3C505F6-8F37-4EDF-91D8-3810F50C54BB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private\BaseFilesDownloader.cpp">
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private</Filter>
@@ -908,7 +908,7 @@
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public">
-      <UniqueIdentifier>{7686EA9D-DFEF-4722-B11D-82A2D63A598F}</UniqueIdentifier>
+      <UniqueIdentifier>{27A1A233-5B88-413D-9AC2-DF225DC885E2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public\BaseFilesDownloader.h">
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public</Filter>
@@ -926,10 +926,10 @@
       <Filter>Plugins\RuntimeFilesDownloader\Source\RuntimeFilesDownloader\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source">
-      <UniqueIdentifier>{F03A56F4-08CE-4CCC-A5D4-05B45EA9AE77}</UniqueIdentifier>
+      <UniqueIdentifier>{84859C66-E0FD-48D7-A4BD-834C6347FBEE}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro">
-      <UniqueIdentifier>{F48D92DA-C534-4A26-9A14-62F148B4586F}</UniqueIdentifier>
+      <UniqueIdentifier>{28325DBE-D8DE-49E6-9DD7-498BA78252A9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\MeoPlayVoiceChat_AndroidAPL.xml">
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro</Filter>
@@ -941,7 +941,7 @@
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro</Filter>
     </None>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private">
-      <UniqueIdentifier>{0E90378C-32E5-45E0-89F5-1230C3707623}</UniqueIdentifier>
+      <UniqueIdentifier>{8DD5FD6F-61C7-40BB-B2FA-113D4B155CBC}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private\AudioCaptureAndroid.cpp">
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private</Filter>
@@ -959,7 +959,7 @@
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public">
-      <UniqueIdentifier>{A3271876-206C-463E-910D-0592EB3CE7D6}</UniqueIdentifier>
+      <UniqueIdentifier>{F7052897-3405-4AB5-A49C-364F30C3A8F3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public\AudioCaptureAndroid.h">
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public</Filter>
@@ -977,16 +977,16 @@
       <Filter>Plugins\UniversalVoiceChatPro\Source\UniversalVoiceChatPro\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\VaRestPlugin\Source">
-      <UniqueIdentifier>{F3E230D3-6D75-4905-ABA5-AD8A30EA227D}</UniqueIdentifier>
+      <UniqueIdentifier>{B04B948D-2B7A-4784-8FF2-0FF031811C35}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRest">
-      <UniqueIdentifier>{15765CA9-FB4C-4842-9E52-A084065C6B58}</UniqueIdentifier>
+      <UniqueIdentifier>{AED4887B-AD04-4CE9-AB0C-3157E1F2C672}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Source\VaRest\VaRest.Build.cs">
       <Filter>Plugins\VaRestPlugin\Source\VaRest</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRest\Private">
-      <UniqueIdentifier>{C66FE9CB-E178-4F04-928D-4ED9B195CC4C}</UniqueIdentifier>
+      <UniqueIdentifier>{227A8FF7-3E0B-4511-822F-C2CBF88D3A42}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VaRestPlugin\Source\VaRest\Private\VaRest.cpp">
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Private</Filter>
@@ -1016,7 +1016,7 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRest\Public">
-      <UniqueIdentifier>{4C1D33EB-1CE2-48F2-991C-E91E422F2DAE}</UniqueIdentifier>
+      <UniqueIdentifier>{3D308B19-64C9-427D-892C-C4EBF376D547}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VaRestPlugin\Source\VaRest\Public\VaRest.h">
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Public</Filter>
@@ -1046,13 +1046,13 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRest\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRestEditor">
-      <UniqueIdentifier>{89ECFAFB-1003-4989-B10F-01F723C7F575}</UniqueIdentifier>
+      <UniqueIdentifier>{A0286ED7-6160-4AF4-ACCA-2EFED417546E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\VaRestPlugin\Source\VaRestEditor\VaRestEditor.Build.cs">
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor</Filter>
     </None>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRestEditor\Private">
-      <UniqueIdentifier>{05EBDF2D-ADA0-4AF0-8AFE-945F8F70C71C}</UniqueIdentifier>
+      <UniqueIdentifier>{A17ACD9C-45C9-4875-8C49-1A66863DDF79}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\VaRestPlugin\Source\VaRestEditor\Private\VaRestEditor.cpp">
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Private</Filter>
@@ -1061,7 +1061,7 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\VaRestPlugin\Source\VaRestEditor\Public">
-      <UniqueIdentifier>{63FB9393-97F9-4574-ACF3-9782235836E8}</UniqueIdentifier>
+      <UniqueIdentifier>{635610CD-3979-4370-B7C5-9576C864F9B8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\VaRestPlugin\Source\VaRestEditor\Public\VaRestEditor.h">
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Public</Filter>
@@ -1070,7 +1070,7 @@
       <Filter>Plugins\VaRestPlugin\Source\VaRestEditor\Public</Filter>
     </ClInclude>
     <Filter Include="Source\Classroom">
-      <UniqueIdentifier>{38A2750E-7CD4-44F9-8C4D-B80E219271DF}</UniqueIdentifier>
+      <UniqueIdentifier>{61F0A232-263F-4600-B759-6127A6050578}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Classroom\Classroom.Build.cs">
       <Filter>Source\Classroom</Filter>
@@ -1082,7 +1082,7 @@
       <Filter>Source\Classroom</Filter>
     </ClInclude>
     <Filter Include="Source\Classroom\Private">
-      <UniqueIdentifier>{1EB731EB-42BE-4D18-A3DF-CA9D2EB5008D}</UniqueIdentifier>
+      <UniqueIdentifier>{22D0A11E-4A2D-4D00-B7ED-D860E5E8C95F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Classroom\Private\ClassroomLibrary.cpp">
       <Filter>Source\Classroom\Private</Filter>
@@ -1109,7 +1109,7 @@
       <Filter>Source\Classroom\Private</Filter>
     </ClCompile>
     <Filter Include="Source\Classroom\Public">
-      <UniqueIdentifier>{E1EA86AE-5508-4B44-8AD9-DCD1404A6C49}</UniqueIdentifier>
+      <UniqueIdentifier>{656B9768-A3C1-4653-A482-1F9B156497C8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Classroom\Public\ClassroomLibrary.h">
       <Filter>Source\Classroom\Public</Filter>
