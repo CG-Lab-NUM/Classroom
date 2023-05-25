@@ -56,7 +56,7 @@ TArray<FString> AFileHandler::getFilesInFolder(FString path) {
 		FString savedDirectory = FPaths::Combine(FPaths::ConvertRelativePathToFull(FPaths::ProjectSavedDir()), path);
 		FString extensions = "*";
 		fileManager.FindFiles(arr, *savedDirectory, *extensions);
-	}
+ 	}
 	return arr;
 }
 
