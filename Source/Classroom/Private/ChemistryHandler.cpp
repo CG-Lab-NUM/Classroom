@@ -27,14 +27,14 @@ TArray<FString> AChemistryHandler::handleReaction(TArray<FString> arr) {
 		result.Add("true");
 		result.Add("0.1, 0.5, 0.5");
 		result.Add("H2O");
-		result.Add("true");
+		result.Add("true"); // explosion
 	}
 	else if (arr.Contains("N") && countStringInstances(arr, "O", 2) && arr.Num() == 3) {
 		result.Add("Liquid");
 		result.Add("false");
 		result.Add("1, 0.1, 0.1");
 		result.Add("N2O");
-		result.Add("false");
+		result.Add("false"); // explosion
 	}
 	return result;
 }
