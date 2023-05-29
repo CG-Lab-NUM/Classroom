@@ -36,6 +36,20 @@ TArray<FString> AChemistryHandler::handleReaction(TArray<FString> arr) {
 		result.Add("N2O");
 		result.Add("false"); // explosion
 	}
+	else if (arr.Contains("Cu") && arr.Contains("S")) {
+		result.Add("Solid");
+		result.Add("false");
+		result.Add("0.1, 0.1, 1");
+		result.Add("CuSO4");
+		result.Add("false"); // explosion
+	}
+	else if (arr.Contains("CuSO4") && arr.Contains("H2O")) {
+		result.Add("Liquid");
+		result.Add("false");
+		result.Add("0.1, 0.1, 1");
+		result.Add("CuSO4");
+		result.Add("false"); // explosion
+	}
 	return result;
 }
 
